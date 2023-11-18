@@ -241,7 +241,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="-7" y="0" size="1.27" layer="25" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.5" size="0.7" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/2" library_version="23">
+<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/2" locally_modified="yes" library_version="23" library_locally_modified="yes">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <smd name="1" x="4.2" y="-2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
 <smd name="3" x="4.2" y="2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
@@ -265,7 +265,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="0" y="3.7" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-2.811" size="0.3" layer="27" font="vector" align="center">&gt;VALUE</text>
 <text x="4.083" y="0.047" size="0.7" layer="26" font="vector" ratio="15" rot="SMR90" align="center">&gt;NAME</text>
-<hole x="0" y="0" drill="3.3"/>
+<hole x="0" y="0" drill="3.7"/>
 <polygon width="0.127" layer="40">
 <vertex x="-3.1" y="3.3"/>
 <vertex x="3.1" y="3.3"/>
@@ -300,7 +300,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <packageinstance name="TS-1212-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/3" type="model" library_version="23">
+<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/3" type="model" library_version="23" library_locally_modified="yes">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <packageinstances>
 <packageinstance name="B3FS-BACKMOUNT"/>
@@ -326,7 +326,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/4" prefix="SW" uservalue="yes" library_version="23">
+<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/4" locally_modified="yes" prefix="SW" uservalue="yes" library_version="23" library_locally_modified="yes">
 <description>Pushbutton Switch</description>
 <gates>
 <gate name="G$1" symbol="PUSH_SPST" x="0" y="0"/>
@@ -417,7 +417,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="COST100" value="0.09" constant="no"/>
 <attribute name="MFR" value="CK" constant="no"/>
 <attribute name="MPN" value="B3FS" constant="no"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" constant="no"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" constant="no"/>
 <attribute name="VALUE" value="SPST, TACT, MOM" constant="no"/>
 </technology>
 </technologies>

@@ -2994,8 +2994,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.2" y="58" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
 <attribute name="NAME" x="38.053" y="49.383" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="38.2" y="58" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
 <attribute name="VALUE" x="35.189" y="54" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
 <element name="X3" library="xtal" library_urn="urn:adsk.eagle:library:4193208" package="32X25" package3d_urn="urn:adsk.eagle:package:4193218/2" value="16MHz" x="18.8" y="27.8" smashed="yes" rot="MR90">

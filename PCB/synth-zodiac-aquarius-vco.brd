@@ -3628,7 +3628,7 @@ Please make sure your boards conform to these design rules.
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xB4007700"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFFFFFF"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF404000"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFD3D3D3"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF757500"/>
 </mfgpreviewcolors>

@@ -3353,7 +3353,6 @@ Please make sure your boards conform to these design rules.
 <approved hash="6,1,4615dccb81a4f763"/>
 <approved hash="5,1,d632cb8e94718742"/>
 <approved hash="6,16,4747a7cebd13b901"/>
-<approved hash="5,1,9c8cb8f00e4f653a"/>
 <approved hash="4,16,7699561c0012133a"/>
 <approved hash="4,16,98f70cab4834489f"/>
 <approved hash="4,16,958ed257a1883024"/>
@@ -3362,6 +3361,7 @@ Please make sure your boards conform to these design rules.
 <approved hash="4,16,78414072b095cb0a"/>
 <approved hash="7,40,26ca526a1a3afa4b"/>
 <approved hash="7,40,d62e74bf6ed0b451"/>
+<approved hash="5,1,46e2299caf458f32"/>
 </errors>
 </board>
 </drawing>

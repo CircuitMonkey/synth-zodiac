@@ -630,7 +630,7 @@
 <library name="rlc" urn="urn:adsk.eagle:library:4192893">
 <description>Custom RCL Library - Resistors, Capacitors, Inductors</description>
 <packages>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -644,8 +644,8 @@
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -688,7 +688,7 @@
 <vertex x="0.51" y="0.38"/>
 </polygon>
 </package>
-<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/2" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/3" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -744,7 +744,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -756,7 +756,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="0603-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/2" type="box" library_version="48" library_locally_modified="yes">
+<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/3" type="box" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -887,7 +887,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <library name="switch-smd" urn="urn:adsk.eagle:library:5542824">
 <description>Switches SMD</description>
 <packages>
-<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/2" library_version="23">
+<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/3" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <smd name="1" x="4.2" y="-2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
 <smd name="3" x="4.2" y="2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
@@ -911,7 +911,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <text x="0" y="3.7" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-2.811" size="0.3" layer="27" font="vector" align="center">&gt;VALUE</text>
 <text x="4.083" y="0.047" size="0.7" layer="26" font="vector" ratio="15" rot="SMR90" align="center">&gt;NAME</text>
-<hole x="0" y="0" drill="3.3"/>
+<hole x="0" y="0" drill="3.7"/>
 <polygon width="0.127" layer="40">
 <vertex x="-3.1" y="3.3"/>
 <vertex x="3.1" y="3.3"/>
@@ -921,7 +921,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/3" type="model" library_version="23">
+<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/4" type="model" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <packageinstances>
 <packageinstance name="B3FS-BACKMOUNT"/>
@@ -2821,7 +2821,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="49.273" y="34.402" size="0.762" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="45.556" y="31.475" size="0.7112" layer="28" font="vector" rot="MR270" align="center"/>
 </element>
-<element name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1.0uF" x="44.9" y="27.9" smashed="yes" rot="MR0">
+<element name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1.0uF" x="44.9" y="27.9" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.12" x="44.9" y="27.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.09" x="44.9" y="27.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.05" x="44.9" y="27.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2906,14 +2906,14 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="66.088934375" y="41.146025" size="0.8128" layer="26" font="vector" ratio="15" rot="SMR216" align="center"/>
 <attribute name="VALUE" value="MMDL914" x="62.876328125" y="41.818884375" size="0.3048" layer="28" font="vector" rot="MR36" align="center"/>
 </element>
-<element name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="46.2" y="34.9" smashed="yes" rot="MR180">
+<element name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="46.2" y="34.9" smashed="yes" rot="MR180">
 <attribute name="COST01" value="0.12" x="46.2" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST10" value="0.09" x="46.2" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST100" value="0.05" x="46.2" y="34.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="47.3" y="36" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="46.2" y="34.9" size="0.2" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="47.7" y="27.9" smashed="yes" rot="MR180">
+<element name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="47.7" y="27.9" smashed="yes" rot="MR180">
 <attribute name="COST01" value="0.12" x="47.7" y="27.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST10" value="0.09" x="47.7" y="27.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST100" value="0.05" x="47.7" y="27.9" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2926,7 +2926,7 @@ Please make sure your boards conform to these design rules.
 <element name="CV_GND" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" package="SMD-070MIL" package3d_urn="urn:adsk.eagle:package:16261575/3" value="PAD-70X70SMD-070X070" x="42.9" y="20.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="40.995" y="20.4" size="1.27" layer="26" rot="MR0" align="center-left"/>
 </element>
-<element name="GLIDE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="POT-RV9110" package3d_urn="urn:adsk.eagle:package:36472483/2" value="1M" x="38" y="56.5" smashed="yes" rot="MR306">
+<element name="GLIDE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="POT-RV9110" package3d_urn="urn:adsk.eagle:package:36472483/3" value="1M" x="38" y="56.5" smashed="yes" rot="MR306">
 <attribute name="COST01" value="0.70" x="38" y="56.5" size="0.8" layer="28" ratio="15" rot="MR306" display="off"/>
 <attribute name="COST10" value="0.60" x="38" y="56.5" size="0.8" layer="28" ratio="15" rot="MR306" display="off"/>
 <attribute name="COST100" value="0.60" x="38" y="56.5" size="0.8" layer="28" ratio="15" rot="MR306" display="off"/>
@@ -2949,161 +2949,161 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="21.158015625" y="48.54376875" size="0.8" layer="26" font="vector" ratio="15" rot="MR144" align="bottom-center"/>
 <attribute name="VALUE" x="20.7" y="46.6" size="0.3" layer="28" font="vector" rot="MR234" align="center"/>
 </element>
-<element name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF" x="22.1" y="44.5" smashed="yes" rot="MR324">
+<element name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF" x="22.1" y="44.5" smashed="yes" rot="MR324">
 <attribute name="COST01" value="0.12" x="22.1" y="44.5" size="1.778" layer="28" rot="MR324" display="off"/>
 <attribute name="COST10" value="0.09" x="22.1" y="44.5" size="1.778" layer="28" rot="MR324" display="off"/>
 <attribute name="COST100" value="0.05" x="22.1" y="44.5" size="1.778" layer="28" rot="MR324" display="off"/>
 <attribute name="NAME" x="23.42466875" y="44.1007625" size="0.8128" layer="26" font="vector" ratio="15" rot="MR324" align="center-left"/>
 <attribute name="VALUE" x="22.1" y="44.5" size="0.2" layer="28" rot="MR324" align="center"/>
 </element>
-<element name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF" x="19.1" y="48.8" smashed="yes" rot="MR144">
+<element name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF" x="19.1" y="48.8" smashed="yes" rot="MR144">
 <attribute name="COST01" value="0.12" x="19.1" y="48.8" size="1.778" layer="28" rot="MR144" display="off"/>
 <attribute name="COST10" value="0.09" x="19.1" y="48.8" size="1.778" layer="28" rot="MR144" display="off"/>
 <attribute name="COST100" value="0.05" x="19.1" y="48.8" size="1.778" layer="28" rot="MR144" display="off"/>
 <attribute name="NAME" x="17.994428125" y="49.440459375" size="0.8128" layer="26" font="vector" ratio="15" rot="MR144" align="center-left"/>
 <attribute name="VALUE" x="19.1" y="48.8" size="0.2" layer="28" rot="MR144" align="center"/>
 </element>
-<element name="C" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="15.5" y="43.5" smashed="yes" rot="R216">
+<element name="C" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="15.5" y="43.5" smashed="yes" rot="R216">
 <attribute name="COST01" value="0.15" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="COST10" value="0.12" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="COST100" value="0.09" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="MFR" value="CK" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="MPN" value="B3FS" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
-<attribute name="NAME" x="11.793365625" y="43.274803125" size="2" layer="25" font="vector" ratio="15" rot="SR270" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="NAME" x="12.037953125" y="41.224409375" size="0.7" layer="26" font="vector" ratio="15" rot="SMR144" align="center"/>
+<attribute name="NAME" x="11.793365625" y="43.274803125" size="2" layer="25" font="vector" ratio="15" rot="SR270" align="center"/>
 <attribute name="VALUE" x="13.847734375" y="45.77414375" size="0.3" layer="27" font="vector" rot="R216" align="center"/>
 </element>
-<element name="C#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="19.4" y="35.6" smashed="yes" rot="R198">
+<element name="C#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="19.4" y="35.6" smashed="yes" rot="R198">
 <attribute name="COST01" value="0.15" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="COST10" value="0.12" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="COST100" value="0.09" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="MFR" value="CK" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="MPN" value="B3FS" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="NAME" x="15.618909375" y="34.9433625" size="2" layer="25" font="vector" ratio="15" rot="SR280" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="NAME" x="15.568640625" y="34.30641875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
+<attribute name="NAME" x="15.618909375" y="34.9433625" size="2" layer="25" font="vector" ratio="15" rot="SR280" align="center"/>
 <attribute name="VALUE" x="18.531353125" y="38.27341875" size="0.3" layer="27" font="vector" rot="R198" align="center"/>
 </element>
-<element name="D" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="16.4" y="26.5" smashed="yes" rot="R18">
+<element name="D" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="16.4" y="26.5" smashed="yes" rot="R18">
 <attribute name="COST01" value="0.15" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="COST10" value="0.12" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="COST100" value="0.09" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MFR" value="CK" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN" value="B3FS" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="NAME" x="13.41890625" y="25.443365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="NAME" x="20.2686375" y="27.806415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
+<attribute name="NAME" x="13.41890625" y="25.443365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
 <attribute name="VALUE" x="17.26864375" y="23.826578125" size="0.3" layer="27" font="vector" rot="R18" align="center"/>
 </element>
-<element name="D#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="23.8" y="20.9" smashed="yes" rot="R18">
+<element name="D#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="23.8" y="20.9" smashed="yes" rot="R18">
 <attribute name="COST01" value="0.15" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="COST10" value="0.12" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="COST100" value="0.09" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MFR" value="CK" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN" value="B3FS" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="NAME" x="20.51890625" y="19.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="NAME" x="20.1686375" y="19.706415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
+<attribute name="NAME" x="20.51890625" y="19.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
 <attribute name="VALUE" x="24.66864375" y="18.226578125" size="0.3" layer="27" font="vector" rot="R18" align="center"/>
 </element>
-<element name="E" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="23.5" y="13.4" smashed="yes" rot="R270">
+<element name="E" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="23.5" y="13.4" smashed="yes" rot="R270">
 <attribute name="COST01" value="0.15" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST10" value="0.12" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST100" value="0.09" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="CK" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.3" y="10.6" size="2" layer="25" font="vector" ratio="15" rot="SR324" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="23.553" y="9.283" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="21.3" y="10.6" size="2" layer="25" font="vector" ratio="15" rot="SR324" align="center"/>
 <attribute name="VALUE" x="20.689" y="13.4" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
-<element name="F" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="31.6" y="10.7" smashed="yes" rot="R90">
+<element name="F" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="31.6" y="10.7" smashed="yes" rot="R90">
 <attribute name="COST01" value="0.15" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COST10" value="0.12" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COST100" value="0.09" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="CK" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3FS" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.1" y="7.4" size="2" layer="25" font="vector" ratio="15" rot="SR355" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.553" y="14.783" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="31.1" y="7.4" size="2" layer="25" font="vector" ratio="15" rot="SR355" align="center"/>
 <attribute name="VALUE" x="34.411" y="10.7" size="0.3" layer="27" font="vector" rot="R90" align="center"/>
 </element>
-<element name="F#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="39.8" y="15" smashed="yes" rot="R270">
+<element name="F#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="39.8" y="15" smashed="yes" rot="R270">
 <attribute name="COST01" value="0.15" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST10" value="0.12" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COST100" value="0.09" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="CK" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.8" y="11.5" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="39.753" y="11.083" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="39.8" y="11.5" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
 <attribute name="VALUE" x="36.989" y="15" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
-<element name="G" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="47.4" y="11" smashed="yes">
+<element name="G" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="47.4" y="11" smashed="yes">
 <attribute name="COST01" value="0.15" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="0.12" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="0.09" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="CK" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3FS" x="47.4" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="47.4" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.7" y="7.6" size="2" layer="25" font="vector" ratio="15" rot="SR15" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.453" y="10.983" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="48.7" y="7.6" size="2" layer="25" font="vector" ratio="15" rot="SR15" align="center"/>
 <attribute name="VALUE" x="47.4" y="8.189" size="0.3" layer="27" font="vector" align="center"/>
 </element>
-<element name="G#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="49.3" y="19.1" smashed="yes" rot="R180">
+<element name="G#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="49.3" y="19.1" smashed="yes" rot="R180">
 <attribute name="COST01" value="0.15" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST10" value="0.12" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COST100" value="0.09" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="CK" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="B3FS" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.9" y="16.3" size="2" layer="25" font="vector" ratio="15" rot="SR50" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="49.253" y="23.583" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
+<attribute name="NAME" x="51.9" y="16.3" size="2" layer="25" font="vector" ratio="15" rot="SR50" align="center"/>
 <attribute name="VALUE" x="49.3" y="21.911" size="0.3" layer="27" font="vector" rot="R180" align="center"/>
 </element>
-<element name="A" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="57.7" y="21.9" smashed="yes" rot="R252">
+<element name="A" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="57.7" y="21.9" smashed="yes" rot="R252">
 <attribute name="COST01" value="0.15" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="COST10" value="0.12" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="COST100" value="0.09" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="MFR" value="CK" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="MPN" value="B3FS" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
-<attribute name="NAME" x="60.78109375" y="20.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="NAME" x="53.702309375" y="23.21701875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
+<attribute name="NAME" x="60.78109375" y="20.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
 <attribute name="VALUE" x="55.026578125" y="22.76864375" size="0.3" layer="27" font="vector" rot="R252" align="center"/>
 </element>
-<element name="A#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="56.3" y="30.3" smashed="yes" rot="R162">
+<element name="A#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="56.3" y="30.3" smashed="yes" rot="R162">
 <attribute name="COST01" value="0.15" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="COST10" value="0.12" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="COST100" value="0.09" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MFR" value="CK" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN" value="B3FS" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="NAME" x="59.581090625" y="29.243365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="NAME" x="52.402309375" y="31.517015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
+<attribute name="NAME" x="59.581090625" y="29.243365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
 <attribute name="VALUE" x="57.16864375" y="32.97341875" size="0.3" layer="27" font="vector" rot="R162" align="center"/>
 </element>
-<element name="B" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="62.7" y="36.7" smashed="yes" rot="R162">
+<element name="B" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="62.7" y="36.7" smashed="yes" rot="R162">
 <attribute name="COST01" value="0.15" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="COST10" value="0.12" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="COST100" value="0.09" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MFR" value="CK" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN" value="B3FS" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="NAME" x="65.981090625" y="36.743365625" size="2" layer="25" font="vector" ratio="15" rot="SR92" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="NAME" x="58.802309375" y="37.917015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
+<attribute name="NAME" x="65.981090625" y="36.743365625" size="2" layer="25" font="vector" ratio="15" rot="SR92" align="center"/>
 <attribute name="VALUE" x="63.56864375" y="39.37341875" size="0.3" layer="27" font="vector" rot="R162" align="center"/>
 </element>
-<element name="C2" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM" x="57.7" y="46.1" smashed="yes" rot="R234">
+<element name="C2" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="57.7" y="46.1" smashed="yes" rot="R234">
 <attribute name="COST01" value="0.15" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="COST10" value="0.12" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="COST100" value="0.09" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="MFR" value="CK" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="MPN" value="B3FS" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="NAME" x="62.17519375" y="46.3066375" size="2" layer="25" font="vector" ratio="15" rot="SR108" align="center"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="NAME" x="55.23809375" y="42.66915625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR216" align="center"/>
+<attribute name="NAME" x="62.17519375" y="46.3066375" size="2" layer="25" font="vector" ratio="15" rot="SR108" align="center"/>
 <attribute name="VALUE" x="55.425853125" y="47.7522625" size="0.3" layer="27" font="vector" rot="R234" align="center"/>
 </element>
 <element name="U1" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" package="MLF32" package3d_urn="urn:adsk.eagle:package:4151450/6" value="ATmega328P-MU" x="36.7" y="35.5" smashed="yes" rot="MR270">
@@ -3120,14 +3120,14 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="46.1" y="40.8" size="0.8128" layer="26" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="40.3" y="39" size="0.4064" layer="28" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF" x="37.6" y="40.5" smashed="yes" rot="MR90">
+<element name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF" x="37.6" y="40.5" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="37.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="37.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="37.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="44.7" y="40.1" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="37.6" y="40.5" size="0.2" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF" x="43.2" y="40.4" smashed="yes" rot="MR90">
+<element name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF" x="43.2" y="40.4" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="43.2" y="40.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="43.2" y="40.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="43.2" y="40.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3141,7 +3141,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="28" y="38.924" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="32.146" y="40.5" size="0.2" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C18" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="33.6" y="40.5" smashed="yes" rot="MR90">
+<element name="C18" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="33.6" y="40.5" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="33.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="33.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="33.6" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3162,7 +3162,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="49.276" y="26.5" size="0.8128" layer="26" font="vector" ratio="15" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="42.5" y="17.854" size="0.2" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C19" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="44.9" y="26.5" smashed="yes" rot="MR0">
+<element name="C19" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="44.9" y="26.5" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.12" x="44.9" y="26.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.09" x="44.9" y="26.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.05" x="44.9" y="26.5" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3214,14 +3214,14 @@ Please make sure your boards conform to these design rules.
 <element name="MIDI_OUT&gt;" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" package="SMD-070MIL" package3d_urn="urn:adsk.eagle:package:16261575/3" value="PAD-70X70SMD-070X070" x="30.9" y="38.2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="30.5" y="36.395" size="0.8" layer="26" rot="MR270" align="center-left"/>
 </element>
-<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="36" y="40.5" smashed="yes" rot="MR90">
+<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="36" y="40.5" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="36" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="36" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="36" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="31" y="38.9" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="36" y="40.5" size="0.2" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF" x="34.8" y="40.5" smashed="yes" rot="MR90">
+<element name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF" x="34.8" y="40.5" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="34.8" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="34.8" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="34.8" y="40.5" size="1" layer="28" rot="MR90" display="off"/>
@@ -3565,13 +3565,13 @@ Please make sure your boards conform to these design rules.
 <wire x1="40.3" y1="44" x2="42.2" y2="45.9" width="0.2" layer="16"/>
 <wire x1="51.53565625" y1="45.9" x2="53.4110125" y2="44.02464375" width="0.2" layer="16"/>
 <wire x1="42.2" y1="45.9" x2="51.53565625" y2="45.9" width="0.2" layer="16"/>
-<wire x1="64.1" y1="44.4" x2="59.1" y2="44.4" width="0.2" layer="16"/>
-<wire x1="59.1" y1="44.4" x2="58.6" y2="43.7" width="0.2" layer="16"/>
-<wire x1="58.6" y1="43.7" x2="56.9" y2="43.7" width="0.2" layer="16"/>
-<wire x1="56.9" y1="43.7" x2="56.2" y2="44.4" width="0.2" layer="16"/>
-<wire x1="56.2" y1="44.4" x2="53.78636875" y2="44.4" width="0.2" layer="16"/>
+<wire x1="63.960078125" y1="44.260078125" x2="59.338525" y2="44.263084375" width="0.2" layer="16"/>
+<wire x1="59.338525" y1="44.263084375" x2="58.049753125" y2="43.70275" width="0.2" layer="16"/>
+<wire x1="58.049753125" y1="43.70275" x2="56.76" y2="43.7" width="0.2" layer="16"/>
+<wire x1="56.76" y1="43.7" x2="56.06" y2="44.4" width="0.2" layer="16"/>
+<wire x1="56.06" y1="44.4" x2="53.78636875" y2="44.4" width="0.2" layer="16"/>
 <wire x1="53.78636875" y1="44.4" x2="53.4110125" y2="44.02464375" width="0.2" layer="16"/>
-<wire x1="64.1" y1="44.4" x2="64.2" y2="44.5" width="0.2" layer="16"/>
+<wire x1="63.960078125" y1="44.260078125" x2="64.2" y2="44.5" width="0.2" layer="16"/>
 <via x="64.2" y="44.5" extent="1-16" drill="0.35"/>
 <via x="52.1" y="20.5" extent="1-16" drill="0.35"/>
 <wire x1="52.1" y1="20.5" x2="50.95" y2="21.65" width="0.2" layer="16"/>
@@ -3644,10 +3644,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="66.6970625" y1="37.38479375" x2="66.090928125" y2="37.990928125" width="0.2" layer="1"/>
 <via x="66.090928125" y="37.990928125" extent="1-16" drill="0.35"/>
 <wire x1="66.090928125" y1="37.990928125" x2="64.790928125" y2="37.990928125" width="0.2" layer="16"/>
-<wire x1="64.790928125" y1="37.990928125" x2="63.790928125" y2="38.990928125" width="0.2" layer="16"/>
-<wire x1="63.790928125" y1="38.990928125" x2="61.590928125" y2="38.990928125" width="0.2" layer="16"/>
+<wire x1="64.790928125" y1="37.990928125" x2="63.740928125" y2="39.040928125" width="0.2" layer="16"/>
+<wire x1="63.740928125" y1="39.040928125" x2="61.640928125" y2="39.040928125" width="0.2" layer="16"/>
 <wire x1="56" y1="38.4" x2="61" y2="38.4" width="0.2" layer="16"/>
-<wire x1="61.590928125" y1="38.990928125" x2="61" y2="38.4" width="0.2" layer="16"/>
+<wire x1="61.640928125" y1="39.040928125" x2="61" y2="38.4" width="0.2" layer="16"/>
 <wire x1="54.7" y1="39.7" x2="56" y2="38.4" width="0.2" layer="16"/>
 <wire x1="54.26225" y1="18.60085" x2="54.49915" y2="18.49915" width="0.2" layer="16"/>
 <wire x1="54.49915" y1="18.49915" x2="55.6" y2="18.1" width="0.2" layer="16"/>
@@ -3659,8 +3659,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="54.4" y1="11.7" x2="54.4" y2="10.596571875" width="0.2" layer="16"/>
 <wire x1="56" y1="9.5" x2="55.496571875" y2="9.5" width="0.2" layer="16"/>
 <wire x1="55.496571875" y1="9.5" x2="54.4" y2="10.596571875" width="0.2" layer="16"/>
-<wire x1="33.85" y1="14.9" x2="33.85" y2="7.75" width="0.2" layer="16"/>
-<wire x1="33.85" y1="7.75" x2="33.9" y2="7.7" width="0.2" layer="16"/>
+<wire x1="33.85" y1="14.9" x2="33.93" y2="14.82" width="0.16" layer="16"/>
+<wire x1="33.93" y1="14.82" x2="33.93" y2="7.73" width="0.16" layer="16"/>
+<wire x1="33.9" y1="7.7" x2="33.93" y2="7.73" width="0.16" layer="16"/>
 <via x="33.9" y="7.7" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="C2">
@@ -3682,9 +3683,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="36.3" y1="8.4" x2="33.6" y2="8.4" width="0.2" layer="1"/>
 <wire x1="33.6" y1="8.4" x2="32.7" y2="7.5" width="0.2" layer="1"/>
 <wire x1="32.7" y1="7.5" x2="25.44" y2="7.5" width="0.2" layer="1"/>
-<wire x1="60" y1="36.5" x2="60" y2="35.4" width="0.2" layer="16"/>
-<wire x1="60" y1="35.4" x2="60.1428" y2="35.2572" width="0.2" layer="16"/>
-<wire x1="60.1428" y1="35.2572" x2="63.272259375" y2="34.214046875" width="0.2" layer="16"/>
+<wire x1="60" y1="36.5" x2="60" y2="35.4" width="0.16" layer="16"/>
+<wire x1="60" y1="35.4" x2="60.3678" y2="35.0322" width="0.16" layer="16"/>
+<wire x1="60.3678" y1="35.0322" x2="62.822259375" y2="34.214046875" width="0.16" layer="16"/>
 <wire x1="53.6" y1="37.8" x2="53.3" y2="37.5" width="0.2" layer="16"/>
 <wire x1="53.3" y1="37.5" x2="50.9" y2="37.5" width="0.2" layer="16"/>
 <wire x1="50.9" y1="37.5" x2="50.6" y2="37.8" width="0.2" layer="16"/>
@@ -3693,10 +3694,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="53.6" y1="37.8" x2="53.9" y2="37.5" width="0.2" layer="16"/>
 <wire x1="59" y1="37.5" x2="60" y2="36.5" width="0.2" layer="16"/>
 <via x="64.84854375" y="34.45145625" extent="1-16" drill="0.35"/>
-<wire x1="63.272259375" y1="34.214046875" x2="63.758159375" y2="34.214046875" width="0.2" layer="16"/>
-<wire x1="63.758159375" y1="34.214046875" x2="63.9493125" y2="34.4052" width="0.2" layer="16"/>
+<wire x1="62.822259375" y1="34.214046875" x2="63.758159375" y2="34.214046875" width="0.16" layer="16"/>
+<wire x1="63.758159375" y1="34.214046875" x2="63.9493125" y2="34.4052" width="0.16" layer="16"/>
 <wire x1="64.8022875" y1="34.4052" x2="64.84854375" y2="34.45145625" width="0.2" layer="16"/>
-<wire x1="63.9493125" y1="34.4052" x2="64.8022875" y2="34.4052" width="0.2" layer="16"/>
+<wire x1="63.9493125" y1="34.4052" x2="64.8022875" y2="34.4052" width="0.16" layer="16"/>
 <wire x1="64.84854375" y1="34.45145625" x2="64.84854375" y2="33.95145625" width="0.2" layer="1"/>
 <wire x1="65.14714375" y1="33.65285625" x2="64.84854375" y2="33.95145625" width="0.2" layer="1"/>
 <wire x1="53.00085" y1="33.737746875" x2="53.00085" y2="35.40085" width="0.2" layer="16"/>
@@ -3727,8 +3728,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="48.8" y1="36.7" x2="49.2" y2="37.1" width="0.2" layer="16"/>
 <wire x1="40.0453375" y1="36.7" x2="48.8" y2="36.7" width="0.2" layer="16"/>
 <wire x1="58.250321875" y1="13.750321875" x2="64.6" y2="33.4" width="0.2" layer="1"/>
-<wire x1="64.8508125" y1="35.509609375" x2="64.8508125" y2="37.7508125" width="0.2" layer="1"/>
-<wire x1="63.4" y1="39.201625" x2="64.8508125" y2="37.7508125" width="0.2" layer="1"/>
+<wire x1="65.0408125" y1="35.699609375" x2="65.0408125" y2="37.6908125" width="0.2" layer="1"/>
+<wire x1="63.68" y1="39.051625" x2="65.0408125" y2="37.6908125" width="0.2" layer="1"/>
 <wire x1="58.250321875" y1="13.750321875" x2="53.65" y2="9.15" width="0.2" layer="1"/>
 <wire x1="53.65" y1="9.15" x2="52.4" y2="7.9" width="0.2" layer="1"/>
 <wire x1="29.8" y1="7.9" x2="32.5" y2="7.9" width="0.2" layer="1"/>
@@ -3741,23 +3742,23 @@ Please make sure your boards conform to these design rules.
 <via x="28.6" y="17.6" extent="1-16" drill="0.3048"/>
 <wire x1="28.6" y1="17.6" x2="28.6" y2="9.1" width="0.2" layer="1"/>
 <wire x1="28.6" y1="9.1" x2="29.8" y2="7.9" width="0.2" layer="1"/>
-<wire x1="59.6" y1="36.2" x2="59.6" y2="35.266665625" width="0.2" layer="16"/>
-<wire x1="59.6" y1="35.266665625" x2="59.8" y2="34.933334375" width="0.2" layer="16"/>
+<wire x1="59.6" y1="36.2" x2="59.6" y2="35.266665625" width="0.16" layer="16"/>
+<wire x1="59.6" y1="35.266665625" x2="59.84" y2="34.86666875" width="0.16" layer="16"/>
 <wire x1="49.2" y1="37.1" x2="58.7" y2="37.1" width="0.2" layer="16"/>
 <wire x1="58.7" y1="37.1" x2="59.6" y2="36.2" width="0.2" layer="16"/>
-<wire x1="59.8" y1="34.933334375" x2="63.628571875" y2="33.65714375" width="0.2" layer="16"/>
-<wire x1="63.628571875" y1="33.65714375" x2="64.2" y2="33.8" width="0.2" layer="16"/>
+<wire x1="59.84" y1="34.86666875" x2="63.53714375" y2="33.6342875" width="0.16" layer="16"/>
+<wire x1="63.53714375" y1="33.6342875" x2="64.2" y2="33.8" width="0.16" layer="16"/>
 <via x="64.2" y="33.8" extent="1-16" drill="0.35"/>
 <wire x1="64.2" y1="33.8" x2="64.6" y2="33.4" width="0.2" layer="1"/>
-<wire x1="64.16834375" y1="34.827140625" x2="64.8508125" y2="35.509609375" width="0.2" layer="1"/>
+<wire x1="64.16834375" y1="34.827140625" x2="65.0408125" y2="35.699609375" width="0.2" layer="1"/>
 <wire x1="64.2" y1="33.8" x2="64.16834375" y2="33.83165625" width="0.2" layer="1"/>
 <wire x1="64.16834375" y1="33.83165625" x2="64.16834375" y2="34.827140625" width="0.2" layer="1"/>
 <wire x1="59.40085" y1="40.137746875" x2="59.46288125" y2="40.075715625" width="0.2" layer="16"/>
 <wire x1="60.8" y1="39.6412625" x2="59.46288125" y2="40.075715625" width="0.2" layer="16"/>
 <wire x1="60.8" y1="39.6412625" x2="60.8" y2="39.6" width="0.2" layer="16"/>
 <via x="60.8" y="39.6" extent="1-16" drill="0.35"/>
-<wire x1="63.4" y1="39.201625" x2="61.198375" y2="39.201625" width="0.2" layer="1"/>
-<wire x1="60.8" y1="39.6" x2="61.198375" y2="39.201625" width="0.2" layer="1"/>
+<wire x1="63.68" y1="39.051625" x2="61.348375" y2="39.051625" width="0.2" layer="1"/>
+<wire x1="60.8" y1="39.6" x2="61.348375" y2="39.051625" width="0.2" layer="1"/>
 <wire x1="51.6" y1="8.75" x2="52.55" y2="9.7" width="0.2" layer="16"/>
 <wire x1="52.55" y1="9.7" x2="53" y2="9.7" width="0.2" layer="16"/>
 <via x="53" y="9.7" extent="1-16" drill="0.35"/>
@@ -3778,9 +3779,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="12.963628125" y1="34.698278125" x2="13.098278125" y2="34.736371875" width="0.2" layer="16"/>
 <wire x1="11.598278125" y1="34.236371875" x2="11" y2="33.1" width="0.2" layer="16"/>
 <wire x1="11" y1="33.1" x2="11.8" y2="30.7" width="0.2" layer="16"/>
-<wire x1="18.298278125" y1="20.936371875" x2="18.775321875" y2="22.01015625" width="0.2" layer="16"/>
-<wire x1="22.317246875" y1="23.129903125" x2="18.775321875" y2="22.01015625" width="0.2" layer="16"/>
-<wire x1="22.317246875" y1="23.129903125" x2="23.342925" y2="25.176575" width="0.2" layer="16"/>
+<wire x1="18.298278125" y1="20.936371875" x2="18.798765625" y2="22.062925" width="0.2" layer="16"/>
+<wire x1="22.100759375" y1="23.106821875" x2="18.798765625" y2="22.062925" width="0.2" layer="16"/>
+<wire x1="22.100759375" y1="23.106821875" x2="23.098790625" y2="25.098328125" width="0.2" layer="16"/>
 <wire x1="16.898278125" y1="20.436371875" x2="18.298278125" y2="20.936371875" width="0.2" layer="16"/>
 <wire x1="34.2065" y1="30.392" x2="33.80630625" y2="30.7861875" width="0.2" layer="1"/>
 <wire x1="33.6861875" y1="30.7861875" x2="33.80630625" y2="30.7861875" width="0.2" layer="1"/>
@@ -3791,7 +3792,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="26.9" y1="25.6" x2="26.7" y2="25.4" width="0.2" layer="16"/>
 <wire x1="26.7" y1="25.4" x2="26" y2="25.4" width="0.2" layer="16"/>
 <wire x1="26" y1="25.4" x2="25.524271875" y2="25.875728125" width="0.2" layer="16"/>
-<wire x1="25.524271875" y1="25.875728125" x2="23.342925" y2="25.176575" width="0.2" layer="16"/>
+<wire x1="25.524271875" y1="25.875728125" x2="23.098790625" y2="25.098328125" width="0.2" layer="16"/>
 <wire x1="11.8" y1="30.7" x2="11.31299375" y2="29.23898125" width="0.2" layer="16"/>
 <wire x1="11.31299375" y1="29.23898125" x2="13.766803125" y2="21.623709375" width="0.2" layer="16"/>
 <wire x1="13.766803125" y1="21.623709375" x2="15.9" y2="20.1" width="0.2" layer="16"/>
@@ -3858,20 +3859,20 @@ Please make sure your boards conform to these design rules.
 <wire x1="36.9506875" y1="20.0052" x2="38.1558875" y2="18.8" width="0.2" layer="16"/>
 <wire x1="61.998278125" y1="27.163625" x2="60.498278125" y2="27.663625" width="0.2" layer="16"/>
 <wire x1="61.9" y1="27" x2="59.14901875" y2="18.74705625" width="0.2" layer="16"/>
-<wire x1="59.14901875" y1="18.74705625" x2="57.68540625" y2="18.284865625" width="0.2" layer="16"/>
-<wire x1="57.68540625" y1="18.284865625" x2="57.170875" y2="16.869903125" width="0.2" layer="16"/>
-<wire x1="57.170875" y1="16.869903125" x2="57.394571875" y2="16.33303125" width="0.2" layer="16"/>
+<wire x1="59.14901875" y1="18.74705625" x2="57.72340625" y2="18.296865625" width="0.2" layer="16"/>
+<wire x1="57.72340625" y1="18.296865625" x2="57.1888375" y2="16.826796875" width="0.2" layer="16"/>
+<wire x1="57.1888375" y1="16.826796875" x2="57.20936875" y2="16.77751875" width="0.2" layer="16"/>
+<wire x1="57.20936875" y1="16.77751875" x2="57.394571875" y2="16.33303125" width="0.2" layer="16"/>
 <wire x1="57.394571875" y1="16.33303125" x2="56.2" y2="12.6" width="0.2" layer="16"/>
 <wire x1="56.798278125" y1="11.963625" x2="56.072446875" y2="12.22285" width="0.2" layer="16"/>
 <wire x1="56.072446875" y1="12.22285" x2="55.398278125" y2="12.463625" width="0.2" layer="16"/>
 <wire x1="56.2" y1="12.6" x2="56.072446875" y2="12.22285" width="0.2" layer="16"/>
-<wire x1="47.04723125" y1="17.05276875" x2="47.199765625" y2="16.91751875" width="0.2" layer="16"/>
+<wire x1="47.04723125" y1="17.05276875" x2="47.35765625" y2="16.77751875" width="0.2" layer="16"/>
 <wire x1="38.1558875" y1="18.8" x2="45.3" y2="18.8" width="0.2" layer="16"/>
 <wire x1="45.3" y1="18.8" x2="47.04723125" y2="17.05276875" width="0.2" layer="16"/>
 <wire x1="61.945178125" y1="27.110525" x2="61.9" y2="27" width="0.2" layer="16"/>
 <wire x1="61.945178125" y1="27.110525" x2="61.998278125" y2="27.163625" width="0.2" layer="16"/>
-<wire x1="47.199765625" y1="16.91751875" x2="57.123259375" y2="16.91751875" width="0.2" layer="16"/>
-<wire x1="57.123259375" y1="16.91751875" x2="57.170875" y2="16.869903125" width="0.2" layer="16"/>
+<wire x1="47.35765625" y1="16.77751875" x2="57.20936875" y2="16.77751875" width="0.16" layer="16"/>
 </signal>
 <signal name="R3">
 <contactref element="D16" pad="K"/>
@@ -4019,10 +4020,10 @@ Please make sure your boards conform to these design rules.
 <contactref element="D#" pad="3"/>
 <wire x1="27.099146875" y1="24.337746875" x2="26.899146875" y2="24.537746875" width="0.2" layer="16"/>
 <wire x1="26.899146875" y1="24.537746875" x2="26.6213" y2="24.537746875" width="0.2" layer="16"/>
-<wire x1="26.6213" y1="24.537746875" x2="23.958865625" y2="23.670334375" width="0.2" layer="16"/>
-<wire x1="23.958865625" y1="23.670334375" x2="23.621496875" y2="23.135678125" width="0.2" layer="16"/>
-<wire x1="23.621496875" y1="23.135678125" x2="19.216659375" y2="21.7593875" width="0.2" layer="16"/>
-<wire x1="19.216659375" y1="21.7593875" x2="17.986753125" y2="18.31791875" width="0.2" layer="16"/>
+<wire x1="26.6213" y1="24.537746875" x2="22.62906875" y2="23.237090625" width="0.2" layer="16"/>
+<wire x1="22.62906875" y1="23.237090625" x2="22.336103125" y2="22.77280625" width="0.2" layer="16"/>
+<wire x1="22.336103125" y1="22.77280625" x2="19.232246875" y2="21.80300625" width="0.2" layer="16"/>
+<wire x1="19.232246875" y1="21.80300625" x2="17.986753125" y2="18.31791875" width="0.2" layer="16"/>
 <wire x1="17.701725" y1="17.963625" x2="17.701725" y2="18.222371875" width="0.2" layer="16"/>
 <wire x1="17.986753125" y1="18.31791875" x2="17.701725" y2="18.222371875" width="0.2" layer="16"/>
 </signal>
@@ -4034,13 +4035,13 @@ Please make sure your boards conform to these design rules.
 <wire x1="34.6" y1="18" x2="34.6" y2="16.7" width="0.2" layer="16"/>
 <wire x1="34" y1="16.1" x2="33.2" y2="16.1" width="0.2" layer="16"/>
 <wire x1="33.2" y1="16.1" x2="31" y2="13.9" width="0.2" layer="16"/>
-<wire x1="26.55" y1="10" x2="25.75" y2="9.2" width="0.2" layer="16"/>
+<wire x1="26.55" y1="10" x2="25.75" y2="9.2" width="0.16" layer="16"/>
 <wire x1="34.6" y1="16.7" x2="34" y2="16.1" width="0.2" layer="16"/>
-<wire x1="31" y1="13.9" x2="31" y2="13.3" width="0.2" layer="16"/>
-<wire x1="31" y1="13.3" x2="29.4" y2="11.7" width="0.2" layer="16"/>
-<wire x1="29.4" y1="11.7" x2="29.4" y2="10.8" width="0.2" layer="16"/>
-<wire x1="29.4" y1="10.8" x2="28.6" y2="10" width="0.2" layer="16"/>
-<wire x1="28.6" y1="10" x2="26.55" y2="10" width="0.2" layer="16"/>
+<wire x1="31" y1="13.9" x2="31" y2="13.4" width="0.16" layer="16"/>
+<wire x1="31" y1="13.4" x2="29.25" y2="11.65" width="0.16" layer="16"/>
+<wire x1="29.25" y1="11.65" x2="29.25" y2="10.65" width="0.16" layer="16"/>
+<wire x1="29.25" y1="10.65" x2="28.6" y2="10" width="0.16" layer="16"/>
+<wire x1="28.6" y1="10" x2="26.55" y2="10" width="0.16" layer="16"/>
 </signal>
 <signal name="N$126">
 <contactref element="D9" pad="A"/>
@@ -4067,11 +4068,11 @@ Please make sure your boards conform to these design rules.
 <signal name="N$129">
 <contactref element="D12" pad="A"/>
 <contactref element="G#" pad="3"/>
-<wire x1="56.201725" y1="14.936371875" x2="56.501725" y2="15.236371875" width="0.2" layer="16"/>
-<wire x1="56.501725" y1="16.136371875" x2="56.501725" y2="15.236371875" width="0.2" layer="16"/>
-<wire x1="56.501725" y1="16.136371875" x2="56.1391125" y2="16.498984375" width="0.2" layer="16"/>
-<wire x1="56.1391125" y1="16.498984375" x2="45.650534375" y2="16.500575" width="0.2" layer="16"/>
-<wire x1="45.650534375" y1="16.500575" x2="45.1" y2="16.85" width="0.2" layer="16"/>
+<wire x1="56.201725" y1="14.936371875" x2="56.501725" y2="15.236371875" width="0.16" layer="16"/>
+<wire x1="56.501725" y1="16.136371875" x2="56.501725" y2="15.236371875" width="0.16" layer="16"/>
+<wire x1="56.501725" y1="16.136371875" x2="56.19911875" y2="16.438978125" width="0.16" layer="16"/>
+<wire x1="56.19911875" y1="16.438978125" x2="45.745084375" y2="16.4405625" width="0.16" layer="16"/>
+<wire x1="45.745084375" y1="16.4405625" x2="45.1" y2="16.85" width="0.2" layer="16"/>
 </signal>
 <signal name="N$130">
 <contactref element="D13" pad="A"/>
@@ -4084,11 +4085,11 @@ Please make sure your boards conform to these design rules.
 <signal name="N$131">
 <contactref element="D14" pad="A"/>
 <contactref element="A#" pad="3"/>
-<wire x1="54.7" y1="28.4" x2="51.710271875" y2="29.35799375" width="0.2" layer="16"/>
-<wire x1="51.610271875" y1="29.45799375" x2="51.710271875" y2="29.35799375" width="0.2" layer="16"/>
-<wire x1="54.7" y1="28.4" x2="56.528490625" y2="27.814884375" width="0.2" layer="16"/>
-<wire x1="56.528490625" y1="27.814884375" x2="59.200034375" y2="29.2105125" width="0.2" layer="16"/>
-<wire x1="59.200034375" y1="29.2105125" x2="61.5680625" y2="28.33808125" width="0.2" layer="16"/>
+<wire x1="54.66" y1="28.35" x2="51.802709375" y2="29.26555625" width="0.2" layer="16"/>
+<wire x1="51.610271875" y1="29.45799375" x2="51.802709375" y2="29.26555625" width="0.2" layer="16"/>
+<wire x1="54.66" y1="28.35" x2="56.582040625" y2="27.73495" width="0.2" layer="16"/>
+<wire x1="56.582040625" y1="27.73495" x2="59.321171875" y2="29.165884375" width="0.2" layer="16"/>
+<wire x1="59.321171875" y1="29.165884375" x2="61.5680625" y2="28.33808125" width="0.2" layer="16"/>
 <wire x1="62.511803125" y1="28.907228125" x2="62.801725" y2="29.636371875" width="0.2" layer="16"/>
 <wire x1="62.511803125" y1="28.907228125" x2="61.5680625" y2="28.33808125" width="0.2" layer="16"/>
 </signal>
@@ -4106,11 +4107,11 @@ Please make sure your boards conform to these design rules.
 <signal name="N$133">
 <contactref element="D16" pad="A"/>
 <contactref element="C2" pad="3"/>
-<wire x1="62.548278125" y1="43.66411875" x2="62.53588125" y2="43.66411875" width="0.2" layer="16"/>
-<wire x1="62.53588125" y1="43.66411875" x2="62.231" y2="43.969" width="0.2" layer="16"/>
-<wire x1="62.231" y1="43.969" x2="59.369" y2="43.969" width="0.2" layer="16"/>
-<wire x1="57.4484125" y1="41.3515875" x2="57.0515875" y2="41.379609375" width="0.2" layer="16"/>
-<wire x1="59.369" y1="43.969" x2="57.4484125" y2="41.3515875" width="0.2" layer="16"/>
+<wire x1="62.548278125" y1="43.66411875" x2="61.68588125" y2="43.66411875" width="0.2" layer="16"/>
+<wire x1="61.68588125" y1="43.66411875" x2="61.511" y2="43.839" width="0.2" layer="16"/>
+<wire x1="61.511" y1="43.839" x2="59.310946875" y2="43.839" width="0.2" layer="16"/>
+<wire x1="57.483909375" y1="41.34908125" x2="57.0515875" y2="41.379609375" width="0.2" layer="16"/>
+<wire x1="59.310946875" y1="43.839" x2="57.483909375" y2="41.34908125" width="0.2" layer="16"/>
 </signal>
 <signal name="XT1">
 <contactref element="C16" pad="1"/>
@@ -4453,8 +4454,8 @@ Please make sure your boards conform to these design rules.
 <approved hash="19,16,92da50fe42495016"/>
 <approved hash="19,16,6449618b7e777bb5"/>
 <approved hash="19,16,c4c4c7e7641b6738"/>
-<approved hash="5,1,d632cb8e94718742"/>
-<approved hash="5,1,46e2299caf458f32"/>
+<approved hash="5,1,94718742d632cb8e"/>
+<approved hash="5,1,9c8cb8f00e4f653a"/>
 </errors>
 </board>
 </drawing>

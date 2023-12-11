@@ -343,7 +343,7 @@
 <text x="0" y="-1.651" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -357,8 +357,8 @@
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -775,7 +775,7 @@
 <text x="0" y="-16" size="1.778" layer="25" ratio="15" align="top-center">&gt;NAME</text>
 <text x="0" y="-9" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/2" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/3" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -911,7 +911,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -998,7 +998,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="POT-PCB-16MM-VT"/>
 </packageinstances>
 </package3d>
-<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/2" type="box" library_version="48" library_locally_modified="yes">
+<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/3" type="box" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -1069,7 +1069,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/15" prefix="C" uservalue="yes" library_version="48">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/16" prefix="C" uservalue="yes" library_version="49">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1177,7 +1177,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1329,7 +1329,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/11" prefix="TRIM" uservalue="yes" library_version="48" library_locally_modified="yes">
+<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/12" prefix="TRIM" uservalue="yes" library_version="49">
 <description>Potentiometer</description>
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="-7.62"/>
@@ -1418,7 +1418,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="3" pad="T"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2676,7 +2676,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="0" y="2.1" size="0.8128" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.1" size="0.4064" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
-<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/2" library_version="23">
+<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/3" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <smd name="1" x="4.2" y="-2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
 <smd name="3" x="4.2" y="2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
@@ -2700,7 +2700,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="0" y="3.7" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-2.811" size="0.3" layer="27" font="vector" align="center">&gt;VALUE</text>
 <text x="4.083" y="0.047" size="0.7" layer="26" font="vector" ratio="15" rot="SMR90" align="center">&gt;NAME</text>
-<hole x="0" y="0" drill="3.3"/>
+<hole x="0" y="0" drill="3.7"/>
 <polygon width="0.127" layer="40">
 <vertex x="-3.1" y="3.3"/>
 <vertex x="3.1" y="3.3"/>
@@ -2735,7 +2735,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <packageinstance name="KMR"/>
 </packageinstances>
 </package3d>
-<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/3" type="model" library_version="23">
+<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/4" type="model" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <packageinstances>
 <packageinstance name="B3FS-BACKMOUNT"/>
@@ -2761,7 +2761,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/4" prefix="SW" uservalue="yes" library_version="23">
+<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/5" prefix="SW" uservalue="yes" library_version="24">
 <description>Pushbutton Switch</description>
 <gates>
 <gate name="G$1" symbol="PUSH_SPST" x="0" y="0"/>
@@ -2843,7 +2843,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41392463/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41392463/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2852,7 +2852,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="COST100" value="0.09" constant="no"/>
 <attribute name="MFR" value="CK" constant="no"/>
 <attribute name="MPN" value="B3FS" constant="no"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" constant="no"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" constant="no"/>
 <attribute name="VALUE" value="SPST, TACT, MOM" constant="no"/>
 </technology>
 </technologies>
@@ -13075,37 +13075,6 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <wire x1="1" y1="-2.5" x2="-1.5" y2="-4.5" width="1.4" layer="42" curve="-60"/>
 <wire x1="4.5" y1="-3" x2="1" y2="-3" width="1.4" layer="42" curve="180"/>
 </package>
-<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/1" locally_modified="yes" library_version="8" library_locally_modified="yes">
-<description>Leo Glyph</description>
-<wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
-<wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
-<wire x1="7.9" y1="-8" x2="-8.1" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8.1" y1="-8" x2="-8.1" y2="8" width="0.127" layer="51"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1" layer="1" curve="180"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1" layer="1" curve="-60"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="29" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1" layer="1" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="29" curve="180"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1" layer="1" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1" layer="1" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1" layer="1" curve="130"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="29" curve="-60"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="29" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="29" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="29" curve="130"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="42" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="42" curve="180"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="42" curve="-60"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="42" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="42" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="42" curve="130"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="30" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="30" curve="180"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="30" curve="-60"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="30" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="30" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="30" curve="130"/>
-</package>
 <package name="CANCER-GLYPH" urn="urn:adsk.eagle:footprint:41513212/2" library_version="8" library_locally_modified="yes">
 <description>Zodiac Symbol - Cancer</description>
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
@@ -13236,6 +13205,37 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <vertex x="3.3" y="3.1" curve="-20"/>
 </polygon>
 </package>
+<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/2" library_version="9">
+<description>Leo Glyph</description>
+<wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
+<wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
+<wire x1="7.9" y1="-8" x2="-8.1" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="-8" x2="-8.1" y2="8" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1" layer="1" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1" layer="1" curve="-60"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="29" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1" layer="1" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="29" curve="180"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1" layer="1" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1" layer="1" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1" layer="1" curve="130"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="29" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="29" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="29" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="29" curve="130"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="42" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="42" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="42" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="42" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="42" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="42" curve="130"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="30" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="30" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="30" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="30" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="30" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="30" curve="130"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="PENTAGON-40MM-RAD" urn="urn:adsk.eagle:package:36376820/2" type="box" library_version="3">
@@ -13352,12 +13352,6 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <packageinstance name="CAPRICORN-GLYPH"/>
 </packageinstances>
 </package3d>
-<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/1" type="empty" library_version="8" library_locally_modified="yes">
-<description>Leo Glyph</description>
-<packageinstances>
-<packageinstance name="LEO-GLYPH"/>
-</packageinstances>
-</package3d>
 <package3d name="CANCER-GLYPH" urn="urn:adsk.eagle:package:41513214/2" type="empty" library_version="8" library_locally_modified="yes">
 <description>Zodiac Symbol - Cancer</description>
 <packageinstances>
@@ -13368,6 +13362,12 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <description>Glyph - Taurus</description>
 <packageinstances>
 <packageinstance name="TAURUS-GLYPH"/>
+</packageinstances>
+</package3d>
+<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/2" type="empty" library_version="9">
+<description>Leo Glyph</description>
+<packageinstances>
+<packageinstance name="LEO-GLYPH"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -13538,7 +13538,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/7" prefix="GLYPH" uservalue="yes" library_version="8" library_locally_modified="yes">
+<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/8" prefix="GLYPH" uservalue="yes" library_version="9">
 <description>Glyph</description>
 <gates>
 <gate name="G$1" symbol="GLYPH" x="0" y="0"/>
@@ -13606,7 +13606,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </device>
 <device name="-LEO" package="LEO-GLYPH">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14584,7 +14584,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2P" urn="urn:adsk.eagle:component:4193227/7" prefix="X" uservalue="yes" library_version="7">
+<deviceset name="2P" urn="urn:adsk.eagle:component:4193227/8" prefix="X" uservalue="yes" library_version="8">
 <description>Crystal</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -14680,6 +14680,25 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="COST100" value="0.54" constant="no"/>
 <attribute name="MPN" value="ABM8G-12.2-18D2Y" constant="no"/>
 <attribute name="VALUE" value="12.288MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="32X25-12MHZ" package="32X25">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193218/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.45" constant="no"/>
+<attribute name="COST10" value="0.35" constant="no"/>
+<attribute name="COST100" value="0.30" constant="no"/>
+<attribute name="MFR" value="ABRICON" constant="no"/>
+<attribute name="MPN" value="ABM8G-12-18D2Y" constant="no"/>
+<attribute name="VALUE" value="12MHZ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15034,7 +15053,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="REV" value="A"/>
 </part>
 <part name="U2" library="op-amp" library_urn="urn:adsk.eagle:library:7076615" deviceset="DUAL" device="TL072A" package3d_urn="urn:adsk.eagle:package:8032603/4" value="TL072A"/>
-<part name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1.0uF"/>
+<part name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1.0uF"/>
 <part name="SUPPLY138" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="D4" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="SWITCHING-SOD323" package3d_urn="urn:adsk.eagle:package:20036322/3" value="MMDL914"/>
 <part name="D5" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="SWITCHING-SOD323" package3d_urn="urn:adsk.eagle:package:20036322/3" value="MMDL914"/>
@@ -15051,8 +15070,8 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="D16" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="SWITCHING-SOD323" package3d_urn="urn:adsk.eagle:package:20036322/3" value="MMDL914"/>
 <part name="SUPPLY141" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY142" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
-<part name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
-<part name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
+<part name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY143" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY148" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY149" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
@@ -15066,7 +15085,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY8" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
-<part name="GLIDE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/2" value="1M"/>
+<part name="GLIDE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/3" value="1M"/>
 <part name="PCB" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="PENTAGON" device="-40R" package3d_urn="urn:adsk.eagle:package:36376820/2" value="PCB FAB"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="CONST" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="CONSTELLATION" device="-SCORPIO" package3d_urn="urn:adsk.eagle:package:36376801/2" value="Scorpio"/>
@@ -15074,31 +15093,31 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" deviceset="LDO-3P-" device="-5V-SOT23" package3d_urn="urn:adsk.eagle:package:7189794/5" value="5V"/>
 <part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
-<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
+<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="SUPPLY12" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="C#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="D" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="D#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="E" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="F" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="F#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="G" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="G#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="A" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="A#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="B" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
-<part name="C2" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
+<part name="C" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="C#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="D" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="D#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="E" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="F" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="F#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="G" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="G#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="A" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="A#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="B" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
+<part name="C2" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
 <part name="U1" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" deviceset="ATMEGA328" device="MU" package3d_urn="urn:adsk.eagle:package:4151450/6" value="ATmega328P-MU"/>
 <part name="X1" library="xtal" library_urn="urn:adsk.eagle:library:4193208" deviceset="2P" device="3.2X2.5" package3d_urn="urn:adsk.eagle:package:4193218/2" value="16MHz"/>
-<part name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF"/>
-<part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF"/>
+<part name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF"/>
+<part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF"/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10.0M"/>
-<part name="C18" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C18" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY16" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -15111,7 +15130,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="SUPPLY24" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="R8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
-<part name="C19" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C19" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY28" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="GATE2EG" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="TRIG2EG" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
@@ -15121,8 +15140,8 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="MIDI_IN&gt;" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD-70X70" device="SMD-070X070" package3d_urn="urn:adsk.eagle:package:16261575/3"/>
 <part name="MIDI_OUT&gt;" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD-70X70" device="SMD-070X070" package3d_urn="urn:adsk.eagle:package:16261575/3"/>
 <part name="SUPPLY29" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
-<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
+<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="SUPPLY30" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="SUPPLY31" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="SUPPLY32" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>

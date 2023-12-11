@@ -886,7 +886,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="-16" size="1.778" layer="25" ratio="15" align="top-center">&gt;NAME</text>
 <text x="0" y="-9" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/2" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/3" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -1047,7 +1047,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <text x="0" y="-1.651" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -1061,8 +1061,8 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -1392,7 +1392,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -1444,7 +1444,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="R_THD_0.25W"/>
 </packageinstances>
 </package3d>
-<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/2" type="box" library_version="48" library_locally_modified="yes">
+<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/3" type="box" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -1515,7 +1515,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/11" prefix="TRIM" uservalue="yes" library_version="48" library_locally_modified="yes">
+<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/12" prefix="TRIM" uservalue="yes" library_version="49">
 <description>Potentiometer</description>
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="-7.62"/>
@@ -1604,7 +1604,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="3" pad="T"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1619,7 +1619,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/15" prefix="C" uservalue="yes" library_version="48">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/16" prefix="C" uservalue="yes" library_version="49">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1727,7 +1727,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2475,11 +2475,11 @@ Speakers, Piezo</description>
 </part>
 <part name="PCB1" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="PENTAGON" device="-40R" package3d_urn="urn:adsk.eagle:package:36376820/2" value="PCB FAB"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="VOL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/2" value="10K"/>
+<part name="VOL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/3" value="10K"/>
 <part name="SPKR" library="audio" library_urn="urn:adsk.eagle:library:8186395" deviceset="SPEAKER" device="-40X30-PADS-SMT" package3d_urn="urn:adsk.eagle:package:36475281/2" value="8ohm/6W"/>
 <part name="AMP" library="audio" library_urn="urn:adsk.eagle:library:8186395" deviceset="PAM8302" device="-DFN" package3d_urn="urn:adsk.eagle:package:36475280/1" value="PAM8302"/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>
@@ -2488,14 +2488,14 @@ Speakers, Piezo</description>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>
 <part name="SUPPLY8" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="4.7uF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="4.7uF"/>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>
 <part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="0"/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF"/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="SUPPLY12" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VDD" device=""/>

@@ -194,6 +194,7 @@
 <text x="37.6" y="7.3" size="4.6" layer="1" ratio="15" align="bottom-center">AMP/SPKR</text>
 <text x="19.3" y="51.5" size="1" layer="1" ratio="20" rot="R36" align="top-center">S A T A N ' S    C Y C L E    W O R K S</text>
 <text x="19.3" y="51.5" size="1" layer="29" ratio="20" rot="R36" align="top-center">S A T A N ' S    C Y C L E    W O R K S</text>
+<text x="38" y="28.8" size="3" layer="20" align="center">CUT OUT</text>
 </plain>
 <libraries>
 <library name="circuit-monkey-zodiac" urn="urn:adsk.eagle:library:36060312">
@@ -551,7 +552,7 @@
 <library name="rlc" urn="urn:adsk.eagle:library:4192893">
 <description>Custom RCL Library - Resistors, Capacitors, Inductors</description>
 <packages>
-<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/2" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/3" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -605,7 +606,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <vertex x="-5" y="-8"/>
 </polygon>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -619,8 +620,8 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -665,7 +666,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -677,7 +678,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="0603-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/2" type="box" library_version="48" library_locally_modified="yes">
+<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/3" type="box" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -1045,7 +1046,7 @@ Please make sure your boards conform to these design rules.
 </autorouter>
 <elements>
 <element name="PCB1" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" package="PENTAGON-40MM-RAD" package3d_urn="urn:adsk.eagle:package:36376820/2" value="PCB FAB" x="38" y="33" smashed="yes"/>
-<element name="VOL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="POT-RV9110" package3d_urn="urn:adsk.eagle:package:36472483/2" value="10K" x="38" y="55" smashed="yes" rot="MR306">
+<element name="VOL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="POT-RV9110" package3d_urn="urn:adsk.eagle:package:36472483/3" value="10K" x="38" y="55" smashed="yes" rot="MR306">
 <attribute name="COST01" value="0.70" x="38" y="55" size="1.778" layer="28" rot="MR306" display="off"/>
 <attribute name="COST10" value="0.60" x="38" y="55" size="1.778" layer="28" rot="MR306" display="off"/>
 <attribute name="COST100" value="0.60" x="38" y="55" size="1.778" layer="28" rot="MR306" display="off"/>
@@ -1073,14 +1074,14 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="17.1" y="48" size="0.7" layer="22" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="17.8" y="46.1" size="0.3" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="22.8" y="45.9" smashed="yes" rot="MR0">
+<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="22.8" y="45.9" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.12" x="22.8" y="45.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.09" x="22.8" y="45.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.05" x="22.8" y="45.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="21.3" y="45.9" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="22.8" y="45.9" size="0.2" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF" x="22.8" y="43.3" smashed="yes" rot="MR0">
+<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="22.8" y="43.3" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.12" x="22.8" y="43.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.09" x="22.8" y="43.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.05" x="22.8" y="43.3" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1094,7 +1095,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="21.276" y="47.2" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="22.8" y="46.946" size="0.2" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="4.7uF" x="22.8" y="48.5" smashed="yes" rot="MR0">
+<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="4.7uF" x="22.8" y="48.5" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.12" x="22.8" y="48.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.09" x="22.8" y="48.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.05" x="22.8" y="48.5" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1115,14 +1116,14 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="21.276" y="44.6" size="0.8128" layer="26" font="vector" ratio="15" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="22.8" y="44.346" size="0.2" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF" x="12.5" y="42.6" smashed="yes" rot="MR90">
+<element name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF" x="12.5" y="42.6" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="12.5" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="12.5" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="12.5" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="12.4" y="40.5" size="0.8128" layer="26" font="vector" ratio="15" rot="MR270" align="center-left"/>
 <attribute name="VALUE" x="12.5" y="42.6" size="0.2" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF" x="13.8" y="42.6" smashed="yes" rot="MR90">
+<element name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF" x="13.8" y="42.6" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.12" x="13.8" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.09" x="13.8" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.05" x="13.8" y="42.6" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1447,8 +1448,8 @@ Please make sure your boards conform to these design rules.
 <approved hash="4,1,c51fe06f5e952560"/>
 <approved hash="4,1,a121a37cce481e79"/>
 <approved hash="4,1,71158be66f550276"/>
-<approved hash="5,1,d632cb8e94718742"/>
 <approved hash="5,1,46e2299caf458f32"/>
+<approved hash="5,1,94718742d632cb8e"/>
 </errors>
 </board>
 </drawing>

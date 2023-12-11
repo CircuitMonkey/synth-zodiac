@@ -1151,7 +1151,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="-33.369465625" y="9.19415625"/>
 </polygon>
 </package>
-<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/1" locally_modified="yes" library_version="8" library_locally_modified="yes">
+<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/2" library_version="9">
 <description>Leo Glyph</description>
 <wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
 <wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
@@ -10618,7 +10618,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="PENTAGON-40MM-RAD"/>
 </packageinstances>
 </package3d>
-<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/1" type="empty" library_version="8" library_locally_modified="yes">
+<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/2" type="empty" library_version="9">
 <description>Leo Glyph</description>
 <packageinstances>
 <packageinstance name="LEO-GLYPH"/>
@@ -10798,7 +10798,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/7" prefix="GLYPH" uservalue="yes" library_version="8" library_locally_modified="yes">
+<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/8" prefix="GLYPH" uservalue="yes" library_version="9">
 <description>Glyph</description>
 <gates>
 <gate name="G$1" symbol="GLYPH" x="0" y="0"/>
@@ -10866,7 +10866,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="-LEO" package="LEO-GLYPH">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -11218,7 +11218,7 @@ MSOP&lt;br&gt;
 <text x="0" y="-1.651" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -11232,8 +11232,8 @@ MSOP&lt;br&gt;
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -11688,7 +11688,7 @@ MSOP&lt;br&gt;
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -11840,7 +11840,7 @@ MSOP&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/15" prefix="C" uservalue="yes" library_version="48">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/16" prefix="C" uservalue="yes" library_version="49">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -11948,7 +11948,7 @@ MSOP&lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12968,61 +12968,7 @@ MSOP&lt;br&gt;
 <library name="con-usb" urn="urn:adsk.eagle:library:4203715">
 <description>General USB Connectors</description>
 <packages>
-<package name="UJC-HP-3-SMT-TR-PANEL" urn="urn:adsk.eagle:footprint:36475201/1" library_version="14">
-<description>USB-C connector, UJC-HP-3-SMT-TR as through panel custom mount</description>
-<wire x1="-3.97" y1="1.6" x2="3.97" y2="1.6" width="0.02" layer="51"/>
-<wire x1="3.97" y1="1.6" x2="4.97" y2="0.6" width="0.02" layer="51" curve="-90"/>
-<wire x1="4.97" y1="0.6" x2="4.97" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="4.97" y1="-0.6" x2="3.97" y2="-1.6" width="0.02" layer="51" curve="-90"/>
-<wire x1="3.97" y1="-1.6" x2="-3.97" y2="-1.6" width="0.02" layer="51"/>
-<wire x1="-3.97" y1="-1.6" x2="-4.97" y2="-0.6" width="0.02" layer="51" curve="-90"/>
-<wire x1="-4.97" y1="-0.6" x2="-4.97" y2="0.6" width="0.02" layer="51"/>
-<wire x1="-4.97" y1="0.6" x2="-3.97" y2="1.6" width="0.02" layer="51" curve="-90"/>
-<wire x1="4.97" y1="-0.6" x2="4.97" y2="-3" width="0.02" layer="51"/>
-<wire x1="4.97" y1="-3" x2="4.67" y2="-3" width="0.02" layer="51"/>
-<wire x1="4.67" y1="-3" x2="4.67" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="4.67" y1="-0.6" x2="4.97" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="-4.97" y1="-0.6" x2="-4.97" y2="-3" width="0.02" layer="51"/>
-<wire x1="-4.97" y1="-3" x2="-4.67" y2="-3" width="0.02" layer="51"/>
-<wire x1="-4.67" y1="-3" x2="-4.67" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="-4.67" y1="-0.6" x2="-4.97" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="-4.67" y1="0.5" x2="-4" y2="1.28" width="0.02" layer="51" curve="-90"/>
-<wire x1="-4" y1="1.28" x2="4" y2="1.28" width="0.02" layer="51"/>
-<wire x1="4" y1="1.28" x2="4.67" y2="0.5" width="0.02" layer="51" curve="-90"/>
-<wire x1="4.67" y1="0.5" x2="4.67" y2="-0.5" width="0.02" layer="51"/>
-<wire x1="4.67" y1="-0.5" x2="4" y2="-1.28" width="0.02" layer="51" curve="-90"/>
-<wire x1="4" y1="-1.28" x2="-4" y2="-1.28" width="0.02" layer="51"/>
-<wire x1="-4" y1="-1.28" x2="-4.67" y2="-0.5" width="0.02" layer="51" curve="-90"/>
-<wire x1="-4.67" y1="-0.5" x2="-4.67" y2="0.5" width="0.02" layer="51"/>
-<wire x1="-3.35" y1="0.2" x2="-3" y2="0.6" width="0.02" layer="51"/>
-<wire x1="-3" y1="0.6" x2="3" y2="0.6" width="0.02" layer="51"/>
-<wire x1="3" y1="0.6" x2="3.35" y2="0.2" width="0.02" layer="51"/>
-<wire x1="3.35" y1="0.2" x2="3.35" y2="-0.2" width="0.02" layer="51"/>
-<wire x1="3.35" y1="-0.2" x2="3" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="3" y1="-0.6" x2="-3" y2="-0.6" width="0.02" layer="51"/>
-<wire x1="-3" y1="-0.6" x2="-3.35" y2="-0.2" width="0.02" layer="51"/>
-<wire x1="-3.35" y1="-0.2" x2="-3.35" y2="0.2" width="0.02" layer="51"/>
-<wire x1="-5" y1="0.65" x2="-4" y2="1.65" width="0.02" layer="20" curve="-90"/>
-<wire x1="-4" y1="1.65" x2="4" y2="1.65" width="0.02" layer="20"/>
-<wire x1="4" y1="1.65" x2="5" y2="0.65" width="0.02" layer="20" curve="-90"/>
-<wire x1="5" y1="0.65" x2="5" y2="-0.65" width="0.02" layer="20"/>
-<wire x1="5" y1="-0.65" x2="4" y2="-1.65" width="0.02" layer="20" curve="-90"/>
-<wire x1="4" y1="-1.65" x2="-4" y2="-1.65" width="0.02" layer="20"/>
-<wire x1="-4" y1="-1.65" x2="-5" y2="-0.65" width="0.02" layer="20" curve="-90"/>
-<wire x1="-5" y1="-0.65" x2="-5" y2="0.65" width="0.02" layer="20"/>
-<smd name="CC1" x="0.9" y="-3" dx="2" dy="1.4" layer="1" roundness="60" rot="R90"/>
-<smd name="CC2" x="-0.9" y="-3" dx="2" dy="1.4" layer="1" roundness="60" rot="R90"/>
-<smd name="VB-A" x="-2.7" y="-3" dx="2" dy="1.4" layer="1" roundness="60" rot="R90"/>
-<smd name="GND-A" x="-4.8" y="-1.5" dx="5" dy="2" layer="1" roundness="60" rot="R90"/>
-<smd name="VB-B" x="2.7" y="-3" dx="2" dy="1.4" layer="1" roundness="60" rot="R90"/>
-<smd name="GND-B" x="4.8" y="-1.5" dx="5" dy="2" layer="1" roundness="60" rot="R90"/>
-<smd name="PAD1" x="-2.6" y="2.2" dx="3" dy="1.4" layer="1" roundness="60"/>
-<smd name="PAD2" x="2.6" y="2.2" dx="3" dy="1.4" layer="1" roundness="60"/>
-<text x="0" y="-0.4" size="1.27" layer="20" align="center">CUT OUT</text>
-<text x="-0.4" y="-4.8" size="0.9" layer="25" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="0.8" size="0.6" layer="27" align="center">&gt;VALUE</text>
-</package>
-<package name="GCT-USB4515-PANEL" urn="urn:adsk.eagle:footprint:41431045/1" library_version="15">
+<package name="GCT-USB4515-PANEL" urn="urn:adsk.eagle:footprint:41431045/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
 <description>GCT USB4515 Power only USB-C Mounted through PCB</description>
 <wire x1="-4.5" y1="0.5" x2="-3.41" y2="1.58" width="0.02" layer="51" curve="-90"/>
 <wire x1="-3.41" y1="1.58" x2="3.41" y2="1.58" width="0.02" layer="51"/>
@@ -13053,16 +12999,16 @@ MSOP&lt;br&gt;
 <wire x1="-4.5" y1="-0.5" x2="-4.5" y2="0.5" width="0.02" layer="20"/>
 <wire x1="4.5" y1="0.5" x2="4.5" y2="-0.5" width="0.02" layer="20"/>
 <text x="0" y="-0.2" size="1.2" layer="20" align="center">CUT OUT</text>
-<text x="-0.1" y="-2.5" size="1.2" layer="25" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-3.3" size="2" layer="25" ratio="15" align="center">&gt;NAME</text>
 <text x="-0.1" y="1" size="0.6" layer="27" align="center">&gt;VALUE</text>
-<smd name="P$1" x="-5.8" y="0" dx="2" dy="2" layer="1" roundness="40"/>
-<smd name="P$2" x="5.8" y="-0.1" dx="2" dy="2" layer="1" roundness="40"/>
-<smd name="CC1" x="-0.55" y="3.3" dx="0.7" dy="1.6" layer="1" roundness="80"/>
-<smd name="CC2" x="0.55" y="3.3" dx="0.7" dy="1.6" layer="1" roundness="80"/>
-<smd name="VA" x="1.95" y="3.3" dx="1" dy="1.6" layer="1" roundness="80"/>
-<smd name="VB" x="-1.95" y="3.3" dx="1" dy="1.6" layer="1" roundness="80"/>
-<smd name="GNDB" x="-3.8" y="3.3" dx="1.4" dy="1.6" layer="1" roundness="80"/>
-<smd name="GNDA" x="3.7" y="3.3" dx="1.4" dy="1.6" layer="1" roundness="80"/>
+<smd name="MT1" x="-5.2" y="0" dx="3" dy="2" layer="16" roundness="50" rot="R180"/>
+<smd name="MT2" x="5.2" y="-0.1" dx="3" dy="2" layer="16" roundness="50"/>
+<smd name="CC1" x="-0.5" y="-3.3" dx="0.7" dy="1.6" layer="16" roundness="80" rot="R180"/>
+<smd name="CC2" x="0.5" y="-3.3" dx="0.7" dy="1.6" layer="16" roundness="80" rot="R180"/>
+<smd name="VA" x="1.55" y="-3.3" dx="0.8" dy="1.6" layer="16" roundness="80" rot="R180"/>
+<smd name="VB" x="-1.55" y="-3.3" dx="0.8" dy="1.6" layer="16" roundness="80" rot="R180"/>
+<smd name="GNDB" x="-2.9" y="-3.3" dx="1.1" dy="1.6" layer="16" roundness="80" rot="R180"/>
+<smd name="GNDA" x="2.9" y="-3.3" dx="1.1" dy="1.6" layer="16" roundness="80" rot="R180"/>
 <polygon width="0.2" layer="41">
 <vertex x="-4.5" y="0.5" curve="-90"/>
 <vertex x="-3.4" y="1.6"/>
@@ -13083,24 +13029,145 @@ MSOP&lt;br&gt;
 <vertex x="-3.4" y="-1.6" curve="-90"/>
 <vertex x="-4.5" y="-0.5"/>
 </polygon>
+<smd name="MT3" x="-4.4" y="-1.7" dx="1" dy="2.4" layer="16" roundness="80"/>
+<smd name="MTC" x="0" y="2" dx="4" dy="1.2" layer="16" roundness="40"/>
+<smd name="MT4" x="4.4" y="-1.7" dx="1" dy="2.4" layer="16" roundness="80" rot="R180"/>
+<text x="-2.9" y="-4.4" size="0.7" layer="22" ratio="15" rot="MR270" align="center-left">GND</text>
+<text x="2.9" y="-4.4" size="0.7" layer="22" ratio="15" rot="MR270" align="center-left">GND</text>
+<text x="1.5" y="-4.4" size="0.7" layer="22" rot="MR270" align="center-left">Va</text>
+<text x="-1.5" y="-4.4" size="0.7" layer="22" rot="MR270" align="center-left">Vb</text>
+<text x="-0.5" y="-4.4" size="0.7" layer="22" rot="MR270" align="center-left">CC1</text>
+<text x="0.5" y="-4.4" size="0.7" layer="22" rot="MR270" align="center-left">CC2</text>
+</package>
+<package name="UJC-HP-3-SMT-TR-PANEL" urn="urn:adsk.eagle:footprint:36475201/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
+<description>USB-C connector, UJC-HP-3-SMT-TR as through panel custom mount</description>
+<wire x1="-3.47" y1="1.6" x2="3.47" y2="1.6" width="0.02" layer="51"/>
+<wire x1="3.47" y1="1.6" x2="4.47" y2="0.6" width="0.02" layer="51" curve="-90"/>
+<wire x1="4.47" y1="0.6" x2="4.47" y2="-0.6" width="0.02" layer="51"/>
+<wire x1="4.47" y1="-0.6" x2="3.47" y2="-1.6" width="0.02" layer="51" curve="-90"/>
+<wire x1="3.47" y1="-1.6" x2="-3.47" y2="-1.6" width="0.02" layer="51"/>
+<wire x1="-3.47" y1="-1.6" x2="-4.47" y2="-0.5" width="0.02" layer="51" curve="-90"/>
+<wire x1="-4.47" y1="-0.5" x2="-4.47" y2="0.5" width="0.02" layer="51"/>
+<wire x1="-4.47" y1="0.5" x2="-3.47" y2="1.6" width="0.02" layer="51" curve="-90"/>
+<wire x1="4.47" y1="-0.6" x2="4.47" y2="-3" width="0.02" layer="51"/>
+<wire x1="4.47" y1="-3" x2="4.17" y2="-3" width="0.02" layer="51"/>
+<wire x1="4.17" y1="-3" x2="4.17" y2="-0.6" width="0.02" layer="51"/>
+<wire x1="4.17" y1="-0.6" x2="4.47" y2="-0.6" width="0.02" layer="51"/>
+<wire x1="-4.47" y1="-0.5" x2="-4.47" y2="-3" width="0.02" layer="51"/>
+<wire x1="-4.47" y1="-3" x2="-4.17" y2="-3" width="0.02" layer="51"/>
+<wire x1="-4.17" y1="-3" x2="-4.17" y2="-0.5" width="0.02" layer="51"/>
+<wire x1="-4.17" y1="-0.5" x2="-4.47" y2="-0.5" width="0.02" layer="51"/>
+<wire x1="-4.17" y1="0.5" x2="-3.5" y2="1.28" width="0.02" layer="51" curve="-90"/>
+<wire x1="-3.5" y1="1.28" x2="3.5" y2="1.28" width="0.02" layer="51"/>
+<wire x1="3.5" y1="1.28" x2="4.17" y2="0.5" width="0.02" layer="51" curve="-90"/>
+<wire x1="4.17" y1="0.5" x2="4.17" y2="-0.5" width="0.02" layer="51"/>
+<wire x1="4.17" y1="-0.5" x2="3.5" y2="-1.28" width="0.02" layer="51" curve="-90"/>
+<wire x1="3.5" y1="-1.28" x2="-3.5" y2="-1.28" width="0.02" layer="51"/>
+<wire x1="-3.5" y1="-1.28" x2="-4.17" y2="-0.5" width="0.02" layer="51" curve="-90"/>
+<wire x1="-4.17" y1="-0.5" x2="-4.17" y2="0.5" width="0.02" layer="51"/>
+<wire x1="-3.35" y1="0.2" x2="-3" y2="0.6" width="0.02" layer="51"/>
+<wire x1="-3" y1="0.6" x2="3" y2="0.6" width="0.02" layer="51"/>
+<wire x1="3" y1="0.6" x2="3.35" y2="0.2" width="0.02" layer="51"/>
+<wire x1="3.35" y1="0.2" x2="3.35" y2="-0.2" width="0.02" layer="51"/>
+<wire x1="3.35" y1="-0.2" x2="3" y2="-0.6" width="0.02" layer="51"/>
+<wire x1="3" y1="-0.6" x2="-3" y2="-0.6" width="0.02" layer="51"/>
+<wire x1="-3" y1="-0.6" x2="-3.35" y2="-0.2" width="0.02" layer="51"/>
+<wire x1="-3.35" y1="-0.2" x2="-3.35" y2="0.2" width="0.02" layer="51"/>
+<wire x1="-4.5" y1="0.5" x2="-3.36" y2="1.64" width="0.02" layer="20" curve="-90"/>
+<wire x1="-3.36" y1="1.64" x2="3.36" y2="1.64" width="0.02" layer="20"/>
+<wire x1="3.36" y1="1.64" x2="4.5" y2="0.5" width="0.02" layer="20" curve="-90"/>
+<wire x1="4.5" y1="0.5" x2="4.5" y2="-0.5" width="0.02" layer="20"/>
+<wire x1="4.5" y1="-0.5" x2="3.36" y2="-1.64" width="0.02" layer="20" curve="-90"/>
+<wire x1="3.36" y1="-1.64" x2="-3.36" y2="-1.64" width="0.02" layer="20"/>
+<wire x1="-3.36" y1="-1.64" x2="-4.5" y2="-0.5" width="0.02" layer="20" curve="-90"/>
+<wire x1="-4.5" y1="-0.5" x2="-4.5" y2="0.5" width="0.02" layer="20"/>
+<smd name="CC2" x="0.6" y="-3" dx="1.6" dy="0.8" layer="16" roundness="80" rot="R90"/>
+<smd name="CC1" x="-0.6" y="-3" dx="1.6" dy="0.8" layer="16" roundness="80" rot="R90"/>
+<smd name="VB-A" x="-1.8" y="-3" dx="1.6" dy="0.9" layer="16" roundness="80" rot="R90"/>
+<smd name="MNT1" x="-4.6" y="-0.9" dx="4.8" dy="1" layer="16" roundness="80" rot="R90"/>
+<smd name="VB-B" x="1.8" y="-3" dx="1.6" dy="0.9" layer="16" roundness="80" rot="R90"/>
+<smd name="MNT2" x="4.6" y="-0.9" dx="4.8" dy="1" layer="16" roundness="80" rot="R90"/>
+<smd name="MNT3" x="-2.2" y="1.9" dx="2.5" dy="1.2" layer="16" roundness="60"/>
+<smd name="MNT4" x="2.2" y="1.9" dx="2.5" dy="1.2" layer="16" roundness="60"/>
+<text x="0" y="-0.4" size="1.27" layer="20" align="center">CUT OUT</text>
+<text x="0" y="-3.2" size="2" layer="25" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="0.8" size="0.6" layer="27" align="center">&gt;VALUE</text>
+<smd name="GNDA" x="-3.2" y="-3" dx="1.6" dy="1.1" layer="16" roundness="80" rot="R90"/>
+<smd name="BNGB" x="3.2" y="-3" dx="1.6" dy="1.1" layer="16" roundness="80" rot="R90"/>
+<text x="-3.2" y="-4.1" size="0.7" layer="22" ratio="15" rot="MR270" align="center-left">GND</text>
+<text x="3.2" y="-4.1" size="0.7" layer="22" ratio="15" rot="MR270" align="center-left">GND</text>
+<text x="-1.9" y="-4.1" size="0.7" layer="22" rot="MR270" align="center-left">Va</text>
+<text x="1.8" y="-4.1" size="0.7" layer="22" rot="MR270" align="center-left">Vb</text>
+<text x="-0.5" y="-4.1" size="0.6" layer="22" rot="MR270" align="center-left">CC1</text>
+<text x="0.7" y="-4.1" size="0.6" layer="22" rot="MR270" align="center-left">CC2</text>
+</package>
+<package name="GCT-USB4125" urn="urn:adsk.eagle:footprint:42461640/1" library_version="16" library_locally_modified="yes">
+<description>GCT USB 4125 SMT Power only USB-C connector</description>
+<wire x1="-4.47" y1="5.5" x2="-3" y2="5.5" width="0.03" layer="51"/>
+<wire x1="-3" y1="5.5" x2="-2.5" y2="5" width="0.03" layer="51"/>
+<wire x1="-2.5" y1="5" x2="2.5" y2="5" width="0.03" layer="51"/>
+<wire x1="2.5" y1="5" x2="3" y2="5.5" width="0.03" layer="51"/>
+<wire x1="3" y1="5.5" x2="4.47" y2="5.5" width="0.03" layer="51"/>
+<wire x1="4.47" y1="5.5" x2="4.47" y2="-1.3" width="0.03" layer="51"/>
+<wire x1="4.47" y1="-1.3" x2="-4.47" y2="-1.3" width="0.03" layer="51"/>
+<wire x1="-4.47" y1="-1.3" x2="-4.47" y2="5.5" width="0.03" layer="51"/>
+<wire x1="-5.5" y1="0" x2="5.5" y2="0" width="0.03" layer="51" style="shortdash"/>
+<wire x1="-4.5" y1="4" x2="-4.5" y2="2.5" width="0.2" layer="21"/>
+<wire x1="4.5" y1="4" x2="4.5" y2="2.5" width="0.2" layer="21"/>
+<wire x1="4.5" y1="0" x2="4.5" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="4.5" y1="-1.3" x2="-4.5" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="-1.3" x2="-4.5" y2="0" width="0.2" layer="21"/>
+<smd name="B5" x="0.5" y="5.4" dx="1.3" dy="0.7" layer="1" roundness="60" rot="R90"/>
+<smd name="A5" x="-0.5" y="5.4" dx="1.3" dy="0.7" layer="1" roundness="60" rot="R90"/>
+<smd name="A9" x="1.52" y="5.4" dx="1.3" dy="0.75" layer="1" roundness="60" rot="R90"/>
+<smd name="B9" x="-1.52" y="5.4" dx="1.3" dy="0.75" layer="1" roundness="60" rot="R90"/>
+<smd name="B12" x="-2.75" y="5.4" dx="1.3" dy="0.8" layer="1" roundness="60" rot="R90"/>
+<smd name="A12" x="2.75" y="5.4" dx="1.3" dy="0.8" layer="1" roundness="60" rot="R90"/>
+<rectangle x1="-0.75" y1="4.9" x2="-0.25" y2="5.5" layer="51"/>
+<rectangle x1="0.25" y1="4.9" x2="0.75" y2="5.5" layer="51"/>
+<rectangle x1="-1.8" y1="4.9" x2="-1.24" y2="5.5" layer="51"/>
+<rectangle x1="1.24" y1="4.9" x2="1.8" y2="5.5" layer="51"/>
+<rectangle x1="2.45" y1="4.9" x2="3.05" y2="5.5" layer="51"/>
+<rectangle x1="-3.05" y1="4.9" x2="-2.45" y2="5.5" layer="51"/>
+<rectangle x1="4.17" y1="4.7" x2="4.47" y2="5.5" layer="51"/>
+<rectangle x1="-4.47" y1="4.7" x2="-4.17" y2="5.5" layer="51"/>
+<rectangle x1="-4.47" y1="0.9" x2="-4.17" y2="1.7" layer="51"/>
+<rectangle x1="4.17" y1="0.9" x2="4.47" y2="1.7" layer="51"/>
+<pad name="MT1A" x="-4.32" y="5.38" drill="0.6"/>
+<pad name="MT1B" x="-4.32" y="4.82" drill="0.6"/>
+<pad name="MT2A" x="4.32" y="5.38" drill="0.6"/>
+<pad name="MT2B" x="4.32" y="4.82" drill="0.6"/>
+<pad name="MT3B" x="-4.32" y="1.02" drill="0.6"/>
+<pad name="MT3A" x="-4.32" y="1.58" drill="0.6"/>
+<pad name="MT4B" x="4.32" y="1.02" drill="0.6"/>
+<pad name="MT4A" x="4.32" y="1.58" drill="0.6"/>
+<text x="0" y="6.5" size="0.8" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.5" size="0.4" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.4" layer="51" align="bottom-center">PCB EDGE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="UJC-HP-3-SMT-TR-PANEL" urn="urn:adsk.eagle:package:36475203/1" type="box" library_version="14">
-<description>USB-C connector, UJC-HP-3-SMT-TR as through panel custom mount</description>
-<packageinstances>
-<packageinstance name="UJC-HP-3-SMT-TR-PANEL"/>
-</packageinstances>
-</package3d>
-<package3d name="GCT-USB4515-PANEL" urn="urn:adsk.eagle:package:41431046/1" type="box" library_version="15">
+<package3d name="GCT-USB4515-PANEL" urn="urn:adsk.eagle:package:41431046/1" type="box" library_version="16" library_locally_modified="yes">
 <description>GCT USB4515 Power only USB-C Mounted through PCB</description>
 <packageinstances>
 <packageinstance name="GCT-USB4515-PANEL"/>
 </packageinstances>
 </package3d>
+<package3d name="UJC-HP-3-SMT-TR-PANEL" urn="urn:adsk.eagle:package:36475203/1" type="box" library_version="16" library_locally_modified="yes">
+<description>USB-C connector, UJC-HP-3-SMT-TR as through panel custom mount</description>
+<packageinstances>
+<packageinstance name="UJC-HP-3-SMT-TR-PANEL"/>
+</packageinstances>
+</package3d>
+<package3d name="GCT-USB4125" urn="urn:adsk.eagle:package:42461643/1" type="box" library_version="16" library_locally_modified="yes">
+<description>GCT USB 4125 SMT Power only USB-C connector</description>
+<packageinstances>
+<packageinstance name="GCT-USB4125"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="USB-C-PWR" urn="urn:adsk.eagle:symbol:36475202/1" library_version="14">
+<symbol name="USB-C-PWR" urn="urn:adsk.eagle:symbol:36475202/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
 <description>USB-C Power Only</description>
 <pin name="CC2" x="10.16" y="2.54" length="short" rot="R180"/>
 <pin name="CC1" x="10.16" y="0" length="short" rot="R180"/>
@@ -13112,10 +13179,11 @@ MSOP&lt;br&gt;
 <wire x1="-2.54" y1="-10.16" x2="-2.54" y2="12.7" width="0.6096" layer="94"/>
 <text x="2.794" y="14.224" size="1.778" layer="95" ratio="15" align="center">&gt;NAME</text>
 <text x="-1.27" y="0.508" size="1.016" layer="96" rot="R90" align="center">&gt;VALUE</text>
+<pin name="MNT" x="0" y="-12.7" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB-C-PWR" urn="urn:adsk.eagle:component:36475204/2" prefix="J" uservalue="yes" library_version="15">
+<deviceset name="USB-C-PWR" urn="urn:adsk.eagle:component:36475204/3" locally_modified="yes" prefix="J" uservalue="yes" library_version="16" library_locally_modified="yes">
 <description>USB-C, Power Only</description>
 <gates>
 <gate name="G$1" symbol="USB-C-PWR" x="-2.54" y="-2.54"/>
@@ -13123,9 +13191,10 @@ MSOP&lt;br&gt;
 <devices>
 <device name="-SMT-PNL" package="UJC-HP-3-SMT-TR-PANEL">
 <connects>
-<connect gate="G$1" pin="CC1" pad="CC1"/>
-<connect gate="G$1" pin="CC2" pad="CC2"/>
-<connect gate="G$1" pin="GND" pad="GND-A GND-B PAD1 PAD2"/>
+<connect gate="G$1" pin="CC1" pad="CC2"/>
+<connect gate="G$1" pin="CC2" pad="CC1"/>
+<connect gate="G$1" pin="GND" pad="BNGB GNDA"/>
+<connect gate="G$1" pin="MNT" pad="MNT1 MNT2 MNT3 MNT4"/>
 <connect gate="G$1" pin="VBUS" pad="VB-A VB-B"/>
 </connects>
 <package3dinstances>
@@ -13146,7 +13215,8 @@ MSOP&lt;br&gt;
 <connects>
 <connect gate="G$1" pin="CC1" pad="CC1"/>
 <connect gate="G$1" pin="CC2" pad="CC2"/>
-<connect gate="G$1" pin="GND" pad="GNDA GNDB P$1 P$2"/>
+<connect gate="G$1" pin="GND" pad="GNDA GNDB"/>
+<connect gate="G$1" pin="MNT" pad="MT1 MT2 MT3 MT4 MTC"/>
 <connect gate="G$1" pin="VBUS" pad="VA VB"/>
 </connects>
 <package3dinstances>
@@ -13159,7 +13229,29 @@ MSOP&lt;br&gt;
 <attribute name="COST100" value="0.45" constant="no"/>
 <attribute name="MFR" value="GCT" constant="no"/>
 <attribute name="MPN" value="USB4515" constant="no"/>
-<attribute name="VALUE" value="USB, POWER" constant="no"/>
+<attribute name="VALUE" value="USB-C, POWER" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMT-HORIZ" package="GCT-USB4125">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="GND" pad="A12 B12"/>
+<connect gate="G$1" pin="MNT" pad="MT1A MT1B MT2A MT2B MT3A MT3B MT4A MT4B"/>
+<connect gate="G$1" pin="VBUS" pad="A9 B9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42461643/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.70" constant="no"/>
+<attribute name="COST10" value="0.55" constant="no"/>
+<attribute name="COST100" value="0.42" constant="no"/>
+<attribute name="MFR" value="GCT" constant="no"/>
+<attribute name="MPN" value="USB4125" constant="no"/>
+<attribute name="VALUE" value="USB-C, Power" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14362,7 +14454,7 @@ MSOP&lt;br&gt;
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/3" locally_modified="yes" library_version="31" library_locally_modified="yes">
+<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/4" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="51"/>
@@ -14386,6 +14478,8 @@ Slide aims away to the bottom of PCB.</description>
 <rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
 <rectangle x1="-9.8" y1="-2.6" x2="-6.1" y2="2.6" layer="51"/>
 <rectangle x1="6.1" y1="-2.6" x2="9.8" y2="2.6" layer="51"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="3.729" size="2" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
@@ -14395,8 +14489,44 @@ Slide aims away to the bottom of PCB.</description>
 <smd name="A" x="-3" y="-6" dx="3" dy="2" layer="1" roundness="70" rot="R270"/>
 <smd name="MTG1" x="-8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
 <smd name="MTG2" x="8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
+</package>
+<package name="SS-12-F45-PNL-SMT-2" library_version="32" library_locally_modified="yes">
+<description>Slide Switch, Mounted through PCB&lt;br&gt;
+Small hole, only toggle pokes through.
+Slide aims up from the bottom of PCB. Previous version was mirrored.</description>
+<wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="2.8" x2="6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="-2.8" x2="-6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="-6.1" y1="-2.8" x2="-6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="-3.1" y1="1.6" x2="3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="1.6" x2="3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="-1.6" x2="-3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="-3.1" y1="-1.6" x2="-3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="-3.5" y1="2.9" x2="3.5" y2="2.9" width="0.2" layer="22"/>
+<wire x1="3.5" y1="-2.9" x2="-3.5" y2="-2.9" width="0.2" layer="22"/>
+<wire x1="-3.2" y1="1.6" x2="3.2" y2="1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="1.6" width="0.02" layer="20"/>
+<rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
+<rectangle x1="-6.4" y1="-2.6" x2="-6.1" y2="2.6" layer="52"/>
+<rectangle x1="6.1" y1="-2.6" x2="6.4" y2="2.6" layer="52"/>
+<rectangle x1="-3.7" y1="-2" x2="3.7" y2="2" layer="41"/>
+<rectangle x1="-6.5" y1="-3" x2="6.5" y2="3" layer="42"/>
+<text x="0" y="2.43" size="2" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.413" size="0.4" layer="28" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.729" size="1" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.53" size="0.8" layer="20" align="center">CUT OUT</text>
+<smd name="C" x="0" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="B" x="2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="A" x="-2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="MTG1" x="-5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG2" x="5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<rectangle x1="-6.8" y1="-3.4" x2="6.8" y2="3.4" layer="40"/>
+<smd name="MTG3" x="-5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG4" x="5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<wire x1="-6.5" y1="-1.7" x2="-6.5" y2="1.7" width="0.2" layer="22"/>
+<wire x1="6.5" y1="-1.7" x2="6.5" y2="1.7" width="0.2" layer="22"/>
 </package>
 </packages>
 <packages3d>
@@ -14406,7 +14536,7 @@ Slide aims away to the bottom of PCB.</description>
 <packageinstance name="SS-12-F45"/>
 </packageinstances>
 </package3d>
-<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/3" type="box" library_version="31" library_locally_modified="yes">
+<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/4" type="box" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <packageinstances>
@@ -14455,11 +14585,11 @@ Slide aims away to the bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/11" prefix="SW" uservalue="yes" library_version="31" library_locally_modified="yes">
+<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/12" locally_modified="yes" prefix="SW" uservalue="yes" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, SPDT</description>
 <gates>
 <gate name="-SW" symbol="SPDT" x="0" y="2.54"/>
-<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16" addlevel="request"/>
+<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16"/>
 </gates>
 <devices>
 <device name="SS-12-F45" package="SS-12-F45">
@@ -14493,7 +14623,7 @@ Slide aims away to the bottom of PCB.</description>
 <connect gate="-SW" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14502,6 +14632,24 @@ Slide aims away to the bottom of PCB.</description>
 <attribute name="COST100" value="0.12" constant="no"/>
 <attribute name="MFR" value="Tayda" constant="no"/>
 <attribute name="MPN" value="A-659 / A-5111" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SS-12-F45-TH-PCB-2" package="SS-12-F45-PNL-SMT-2">
+<connects>
+<connect gate="-MTG" pin="MT1" pad="MTG1 MTG3"/>
+<connect gate="-MTG" pin="MT2" pad="MTG2 MTG4"/>
+<connect gate="-SW" pin="A" pad="A"/>
+<connect gate="-SW" pin="B" pad="B"/>
+<connect gate="-SW" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.15" constant="no"/>
+<attribute name="COST10" value="0.12" constant="no"/>
+<attribute name="COST100" value="0.12" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-659/A-5111/A-5104" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14530,20 +14678,20 @@ Slide aims away to the bottom of PCB.</description>
 <part name="SUPPLY22" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="PCB" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="PENTAGON" device="-40R" package3d_urn="urn:adsk.eagle:package:36376820/2" value="PCB FAB"/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="GLYPH" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="GLYPH" device="-LEO" package3d_urn="urn:adsk.eagle:package:36376803/1" value="Leo"/>
+<part name="GLYPH" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="GLYPH" device="-LEO" package3d_urn="urn:adsk.eagle:package:36376803/2" value="Leo"/>
 <part name="CONST" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="CONSTELLATION" device="-LEO" package3d_urn="urn:adsk.eagle:package:36376802/2" value="Leo"/>
 <part name="BOOST" library="regulators" library_urn="urn:adsk.eagle:library:7189770" deviceset="BOOST-MIC2145" device="-MSOP" package3d_urn="urn:adsk.eagle:package:7191701/3" value="MIC2145"/>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF/6.3V"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/6.3V"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
 <part name="L1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="INDUCTOR" device="SMD-05X04MM" package3d_urn="urn:adsk.eagle:package:26838113/5" value="10.0uH"/>
 <part name="D1" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.01uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.01uF"/>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="100pF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="100pF"/>
 <part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="120K"/>
 <part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1M"/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF/16V"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/16V"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -14554,11 +14702,11 @@ Slide aims away to the bottom of PCB.</description>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="0.5ohm"/>
 <part name="D2" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
 <part name="D3" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="2.2uF"/>
+<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="2.2uF"/>
 <part name="D4" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
-<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="GHRG" library="co-microchip" library_urn="urn:adsk.eagle:library:9738997" deviceset="MCP73833" device="-DFN" package3d_urn="urn:adsk.eagle:package:9739049/3" value="MCP73833"/>
 <part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
 <part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
@@ -14566,7 +14714,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="DONE" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3" value="GRN"/>
 <part name="POK" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3" value="BLU"/>
 <part name="R8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
-<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="RPRG" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
 <part name="RTH" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="THRM_G" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>
@@ -14606,8 +14754,8 @@ Slide aims away to the bottom of PCB.</description>
 <part name="BATT" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="V2AMP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="V2LED" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
-<part name="USB" library="con-usb" library_urn="urn:adsk.eagle:library:4203715" deviceset="USB-C-PWR" device="GCT-4515" package3d_urn="urn:adsk.eagle:package:41431046/1" value="USB, POWER"/>
-<part name="PWR" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB" package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<part name="USB" library="con-usb" library_urn="urn:adsk.eagle:library:4203715" deviceset="USB-C-PWR" device="GCT-4515" package3d_urn="urn:adsk.eagle:package:41431046/1" value="USB-C, POWER"/>
+<part name="PWR" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -14924,9 +15072,9 @@ Rprog value.</text>
 <attribute name="NAME" x="18.034" y="80.264" size="1.778" layer="95" ratio="15" align="center"/>
 <attribute name="VALUE" x="13.97" y="66.548" size="1.016" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="PWR" gate="-SW" x="17.78" y="109.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.716" y="109.22" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="12.192" y="109.474" size="0.8128" layer="96" rot="R90" align="center"/>
+<instance part="PWR" gate="-SW" x="17.78" y="109.22" smashed="yes" rot="MR270">
+<attribute name="NAME" x="13.716" y="109.22" size="1.778" layer="95" ratio="15" rot="MR270" align="center"/>
+<attribute name="VALUE" x="12.192" y="108.966" size="0.8128" layer="96" rot="MR270" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -15170,22 +15318,23 @@ Rprog value.</text>
 <label x="24.638" y="107.188" size="1.27" layer="95"/>
 <wire x1="25.4" y1="91.44" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="93.98" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="27.94" y="93.98"/>
-<label x="30.48" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="BATT" gate="G$1" pin="1"/>
-<pinref part="PWR" gate="-SW" pin="A"/>
-<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
+<wire x1="27.94" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GHRG" gate="G$1" pin="VBAT"/>
 <wire x1="116.84" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <label x="122.936" y="74.422" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <junction x="147.32" y="73.66"/>
-<label x="162.56" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="142.24" y1="86.36" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="81.28" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<label x="64.008" y="86.614" size="1.27" layer="95"/>
+<label x="137.668" y="86.868" size="1.27" layer="95"/>
+<pinref part="PWR" gate="-SW" pin="B"/>
+<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -15257,7 +15406,7 @@ Rprog value.</text>
 <pinref part="V2LED" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
 <junction x="53.34" y="142.24"/>
-<label x="30.226" y="118.618" size="1.27" layer="95" rot="R90"/>
+<label x="30.226" y="123.698" size="1.27" layer="95" rot="R90"/>
 <pinref part="PWR" gate="-SW" pin="C"/>
 <wire x1="22.86" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 </segment>

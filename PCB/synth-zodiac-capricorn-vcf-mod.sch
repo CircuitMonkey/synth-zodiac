@@ -343,7 +343,7 @@
 <text x="0" y="-1.651" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -357,8 +357,8 @@
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -775,7 +775,7 @@
 <text x="0" y="-16" size="1.778" layer="25" ratio="15" align="top-center">&gt;NAME</text>
 <text x="0" y="-9" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/2" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<package name="POT-RV9110" urn="urn:adsk.eagle:footprint:36472482/3" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -911,7 +911,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -998,7 +998,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <packageinstance name="POT-PCB-16MM-VT"/>
 </packageinstances>
 </package3d>
-<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/2" type="box" library_version="48" library_locally_modified="yes">
+<package3d name="POT-RV9110" urn="urn:adsk.eagle:package:36472483/3" type="box" library_version="49">
 <description>RV9110 Pot for mounting shaft into PCB. &lt;br&gt;
 Hand solder terminals.
 Shaft points away. Pokes through bottom of PCB.</description>
@@ -1069,7 +1069,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/15" prefix="C" uservalue="yes" library_version="48">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/16" prefix="C" uservalue="yes" library_version="49">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1177,7 +1177,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1329,7 +1329,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/11" prefix="TRIM" uservalue="yes" library_version="48" library_locally_modified="yes">
+<deviceset name="TRIMPOT" urn="urn:adsk.eagle:component:4192989/12" prefix="TRIM" uservalue="yes" library_version="49">
 <description>Potentiometer</description>
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="-7.62"/>
@@ -1418,7 +1418,7 @@ Shaft points away. Pokes through bottom of PCB.</description>
 <connect gate="G$1" pin="3" pad="T"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36472483/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4344,25 +4344,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="-9.7" y="-13.95"/>
 <vertex x="-9.5" y="-13.3"/>
 </polygon>
-</package>
-<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/1" library_version="2" library_locally_modified="yes">
-<description>Leo Glyph</description>
-<wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
-<wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
-<wire x1="7.9" y1="-8" x2="-8.1" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8.1" y1="-8" x2="-8.1" y2="8" width="0.127" layer="51"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1" layer="1" curve="180"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1" layer="1" curve="-60"/>
-<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="29" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1" layer="1" curve="180"/>
-<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="29" curve="180"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1" layer="1" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1" layer="1" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1" layer="1" curve="130"/>
-<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="29" curve="-60"/>
-<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="29" curve="-190"/>
-<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="29" curve="40"/>
-<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="29" curve="130"/>
 </package>
 <package name="SCORPIO-GLYPH" urn="urn:adsk.eagle:footprint:36376774/1" library_version="2" library_locally_modified="yes">
 <description>Scorpio Glyph</description>
@@ -11576,6 +11557,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3" y1="-4" x2="-5" y2="-5" width="1.4" layer="30" curve="30"/>
 <wire x1="3" y1="-4" x2="5" y2="-5" width="1.4" layer="30" curve="-30"/>
 </package>
+<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/2" library_version="9">
+<description>Leo Glyph</description>
+<wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
+<wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
+<wire x1="7.9" y1="-8" x2="-8.1" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="-8" x2="-8.1" y2="8" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1" layer="1" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1" layer="1" curve="-60"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="29" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1" layer="1" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="29" curve="180"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1" layer="1" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1" layer="1" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1" layer="1" curve="130"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="29" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="29" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="29" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="29" curve="130"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="42" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="42" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="42" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="42" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="42" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="42" curve="130"/>
+<wire x1="-5" y1="-1" x2="-1.5" y2="-1" width="1.4" layer="30" curve="180"/>
+<wire x1="-1.5" y1="-1" x2="-5" y2="-1" width="1.4" layer="30" curve="180"/>
+<wire x1="-2.2" y1="0.4" x2="-1.9" y2="4.2" width="1.4" layer="30" curve="-60"/>
+<wire x1="-1.9" y1="4.2" x2="1.4" y2="1.8" width="1.4" layer="30" curve="-190"/>
+<wire x1="1.4" y1="1.8" x2="0.3" y2="-3.6" width="1.4" layer="30" curve="40"/>
+<wire x1="0.3" y1="-3.6" x2="2.7" y2="-4.2" width="1.4" layer="30" curve="130"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="PENTAGON-40MM-RAD" urn="urn:adsk.eagle:package:36376820/2" type="box" library_version="7">
@@ -11606,12 +11618,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>Capricorn Glyph</description>
 <packageinstances>
 <packageinstance name="CAPRICORN-GLYPH"/>
-</packageinstances>
-</package3d>
-<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/1" type="empty" library_version="2" library_locally_modified="yes">
-<description>Leo Glyph</description>
-<packageinstances>
-<packageinstance name="LEO-GLYPH"/>
 </packageinstances>
 </package3d>
 <package3d name="SCORPIO-GLYPH" urn="urn:adsk.eagle:package:36376800/1" type="empty" library_version="2" library_locally_modified="yes">
@@ -11708,6 +11714,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>Glyph - Gemini</description>
 <packageinstances>
 <packageinstance name="GEMINI-GLYPH"/>
+</packageinstances>
+</package3d>
+<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/2" type="empty" library_version="9">
+<description>Leo Glyph</description>
+<packageinstances>
+<packageinstance name="LEO-GLYPH"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -11878,7 +11890,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/7" prefix="GLYPH" uservalue="yes" library_version="8">
+<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/8" prefix="GLYPH" uservalue="yes" library_version="9">
 <description>Glyph</description>
 <gates>
 <gate name="G$1" symbol="GLYPH" x="0" y="0"/>
@@ -11946,7 +11958,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="-LEO" package="LEO-GLYPH">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12503,7 +12515,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/3" locally_modified="yes" library_version="31" library_locally_modified="yes">
+<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/4" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="51"/>
@@ -12527,6 +12539,8 @@ Slide aims away to the bottom of PCB.</description>
 <rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
 <rectangle x1="-9.8" y1="-2.6" x2="-6.1" y2="2.6" layer="51"/>
 <rectangle x1="6.1" y1="-2.6" x2="9.8" y2="2.6" layer="51"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="3.729" size="2" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
@@ -12536,8 +12550,44 @@ Slide aims away to the bottom of PCB.</description>
 <smd name="A" x="-3" y="-6" dx="3" dy="2" layer="1" roundness="70" rot="R270"/>
 <smd name="MTG1" x="-8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
 <smd name="MTG2" x="8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
+</package>
+<package name="SS-12-F45-PNL-SMT-2" library_version="32" library_locally_modified="yes">
+<description>Slide Switch, Mounted through PCB&lt;br&gt;
+Small hole, only toggle pokes through.
+Slide aims up from the bottom of PCB. Previous version was mirrored.</description>
+<wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="2.8" x2="6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="-2.8" x2="-6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="-6.1" y1="-2.8" x2="-6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="-3.1" y1="1.6" x2="3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="1.6" x2="3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="-1.6" x2="-3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="-3.1" y1="-1.6" x2="-3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="-3.5" y1="2.9" x2="3.5" y2="2.9" width="0.2" layer="22"/>
+<wire x1="3.5" y1="-2.9" x2="-3.5" y2="-2.9" width="0.2" layer="22"/>
+<wire x1="-3.2" y1="1.6" x2="3.2" y2="1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="1.6" width="0.02" layer="20"/>
+<rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
+<rectangle x1="-6.4" y1="-2.6" x2="-6.1" y2="2.6" layer="52"/>
+<rectangle x1="6.1" y1="-2.6" x2="6.4" y2="2.6" layer="52"/>
+<rectangle x1="-3.7" y1="-2" x2="3.7" y2="2" layer="41"/>
+<rectangle x1="-6.5" y1="-3" x2="6.5" y2="3" layer="42"/>
+<text x="0" y="2.43" size="2" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.413" size="0.4" layer="28" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.729" size="1" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.53" size="0.8" layer="20" align="center">CUT OUT</text>
+<smd name="C" x="0" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="B" x="2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="A" x="-2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="MTG1" x="-5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG2" x="5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<rectangle x1="-6.8" y1="-3.4" x2="6.8" y2="3.4" layer="40"/>
+<smd name="MTG3" x="-5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG4" x="5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<wire x1="-6.5" y1="-1.7" x2="-6.5" y2="1.7" width="0.2" layer="22"/>
+<wire x1="6.5" y1="-1.7" x2="6.5" y2="1.7" width="0.2" layer="22"/>
 </package>
 </packages>
 <packages3d>
@@ -12547,7 +12597,7 @@ Slide aims away to the bottom of PCB.</description>
 <packageinstance name="SS-12-F45"/>
 </packageinstances>
 </package3d>
-<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/3" type="box" library_version="31" library_locally_modified="yes">
+<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/4" type="box" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <packageinstances>
@@ -12596,11 +12646,11 @@ Slide aims away to the bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/11" prefix="SW" uservalue="yes" library_version="31" library_locally_modified="yes">
+<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/12" locally_modified="yes" prefix="SW" uservalue="yes" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, SPDT</description>
 <gates>
 <gate name="-SW" symbol="SPDT" x="0" y="2.54"/>
-<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16" addlevel="request"/>
+<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16"/>
 </gates>
 <devices>
 <device name="SS-12-F45" package="SS-12-F45">
@@ -12634,7 +12684,7 @@ Slide aims away to the bottom of PCB.</description>
 <connect gate="-SW" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12643,6 +12693,24 @@ Slide aims away to the bottom of PCB.</description>
 <attribute name="COST100" value="0.12" constant="no"/>
 <attribute name="MFR" value="Tayda" constant="no"/>
 <attribute name="MPN" value="A-659 / A-5111" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SS-12-F45-TH-PCB-2" package="SS-12-F45-PNL-SMT-2">
+<connects>
+<connect gate="-MTG" pin="MT1" pad="MTG1 MTG3"/>
+<connect gate="-MTG" pin="MT2" pad="MTG2 MTG4"/>
+<connect gate="-SW" pin="A" pad="A"/>
+<connect gate="-SW" pin="B" pad="B"/>
+<connect gate="-SW" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.15" constant="no"/>
+<attribute name="COST10" value="0.12" constant="no"/>
+<attribute name="COST100" value="0.12" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-659/A-5111/A-5104" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12668,8 +12736,8 @@ Slide aims away to the bottom of PCB.</description>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10.0K"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10.0K"/>
 <part name="SUPPLY90" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY95" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY101" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
 <part name="SUPPLY102" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
@@ -12684,7 +12752,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
 <part name="SUPPLY4" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="AMT" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/2" value="10K"/>
+<part name="AMT" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="TRIMPOT" device="9MM_PCB_SHAFT" package3d_urn="urn:adsk.eagle:package:36472483/3" value="10K"/>
 <part name="U1" library="op-amp" library_urn="urn:adsk.eagle:library:7076615" deviceset="DUAL" device="TL072A" package3d_urn="urn:adsk.eagle:package:8032603/4" value="TL072A"/>
 <part name="SUPPLY5" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -12695,8 +12763,8 @@ Slide aims away to the bottom of PCB.</description>
 <part name="EG_IN" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="LFO_IN" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="MOD2VCF" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
-<part name="SRC" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB" package3d_urn="urn:adsk.eagle:package:36475164/3"/>
-<part name="POL" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB" package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<part name="SRC" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB-2"/>
+<part name="POL" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -12835,13 +12903,13 @@ Amount</text>
 <attribute name="VALUE" x="194.31" y="85.344" size="1.016" layer="96" rot="MR0" align="center"/>
 <attribute name="NAME" x="194.31" y="95.25" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="SRC" gate="-SW" x="76.2" y="99.06" smashed="yes" rot="MR90">
-<attribute name="NAME" x="76.2" y="105.664" size="1.778" layer="95" ratio="15" rot="MR0" align="center"/>
-<attribute name="VALUE" x="81.788" y="99.314" size="0.8128" layer="96" rot="MR90" align="center"/>
+<instance part="SRC" gate="-SW" x="76.2" y="99.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.2" y="92.456" size="1.778" layer="95" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="81.788" y="98.806" size="0.8128" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="POL" gate="-SW" x="162.56" y="91.44" smashed="yes" rot="MR90">
-<attribute name="NAME" x="162.56" y="98.044" size="1.778" layer="95" ratio="15" rot="MR0" align="center"/>
-<attribute name="VALUE" x="168.148" y="91.694" size="0.8128" layer="96" rot="MR90" align="center"/>
+<instance part="POL" gate="-SW" x="162.56" y="91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="162.56" y="84.836" size="1.778" layer="95" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="168.148" y="91.186" size="0.8128" layer="96" rot="R270" align="center"/>
 </instance>
 <instance part="SRC" gate="-MTG" x="220.98" y="27.94" smashed="yes">
 <attribute name="VALUE" x="223.52" y="26.162" size="0.8128" layer="96" font="vector" align="bottom-center"/>
@@ -12953,7 +13021,7 @@ Amount</text>
 <label x="64.008" y="96.774" size="1.27" layer="95"/>
 <pinref part="LFO_IN" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="SRC" gate="-SW" pin="A"/>
+<pinref part="SRC" gate="-SW" pin="B"/>
 </segment>
 </net>
 <net name="AMT" class="0">
@@ -12979,14 +13047,13 @@ Amount</text>
 <label x="124.46" y="94.234" size="0.8128" layer="95"/>
 <pinref part="U1" gate="-A" pin="-"/>
 <pinref part="U1" gate="-A" pin="OUT"/>
-<pinref part="POL" gate="-SW" pin="B"/>
+<pinref part="POL" gate="-SW" pin="A"/>
 </segment>
 </net>
 <net name="MOD_SRC" class="0">
 <segment>
 <wire x1="91.44" y1="96.52" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <label x="81.534" y="99.314" size="0.8128" layer="95"/>
 <pinref part="AMT" gate="G$1" pin="3"/>
 <pinref part="SRC" gate="-SW" pin="C"/>
@@ -13000,7 +13067,7 @@ Amount</text>
 <label x="64.77" y="102.108" size="1.27" layer="95"/>
 <pinref part="EG_IN" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SRC" gate="-SW" pin="B"/>
+<pinref part="SRC" gate="-SW" pin="A"/>
 </segment>
 </net>
 <net name="N$99" class="0">
@@ -13021,11 +13088,11 @@ Amount</text>
 <wire x1="139.7" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="88.9" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="144.78" y="81.28"/>
-<wire x1="157.48" y1="88.9" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <label x="146.812" y="81.788" size="0.8128" layer="95"/>
 <pinref part="U1" gate="-B" pin="OUT"/>
-<pinref part="POL" gate="-SW" pin="A"/>
+<pinref part="POL" gate="-SW" pin="B"/>
+<wire x1="152.4" y1="81.28" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCF_MOD" class="0">

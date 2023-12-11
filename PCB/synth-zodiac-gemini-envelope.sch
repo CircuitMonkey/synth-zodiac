@@ -12935,7 +12935,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/3" locally_modified="yes" library_version="31" library_locally_modified="yes">
+<package name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:footprint:36475160/4" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="51"/>
@@ -12959,6 +12959,8 @@ Slide aims away to the bottom of PCB.</description>
 <rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
 <rectangle x1="-9.8" y1="-2.6" x2="-6.1" y2="2.6" layer="51"/>
 <rectangle x1="6.1" y1="-2.6" x2="9.8" y2="2.6" layer="51"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
+<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
 <text x="0" y="3.429" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.413" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="3.729" size="2" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
@@ -12968,8 +12970,44 @@ Slide aims away to the bottom of PCB.</description>
 <smd name="A" x="-3" y="-6" dx="3" dy="2" layer="1" roundness="70" rot="R270"/>
 <smd name="MTG1" x="-8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
 <smd name="MTG2" x="8.2" y="0" dx="4" dy="6" layer="1" roundness="30"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="41"/>
-<rectangle x1="-6.3" y1="-3.2" x2="6.3" y2="3.2" layer="42" rot="R180"/>
+</package>
+<package name="SS-12-F45-PNL-SMT-2" library_version="32" library_locally_modified="yes">
+<description>Slide Switch, Mounted through PCB&lt;br&gt;
+Small hole, only toggle pokes through.
+Slide aims up from the bottom of PCB. Previous version was mirrored.</description>
+<wire x1="-6.1" y1="2.8" x2="6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="2.8" x2="6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="6.1" y1="-2.8" x2="-6.1" y2="-2.8" width="0.01" layer="52"/>
+<wire x1="-6.1" y1="-2.8" x2="-6.1" y2="2.8" width="0.01" layer="52"/>
+<wire x1="-3.1" y1="1.6" x2="3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="1.6" x2="3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="3.1" y1="-1.6" x2="-3.1" y2="-1.6" width="0.01" layer="51"/>
+<wire x1="-3.1" y1="-1.6" x2="-3.1" y2="1.6" width="0.01" layer="51"/>
+<wire x1="-3.5" y1="2.9" x2="3.5" y2="2.9" width="0.2" layer="22"/>
+<wire x1="3.5" y1="-2.9" x2="-3.5" y2="-2.9" width="0.2" layer="22"/>
+<wire x1="-3.2" y1="1.6" x2="3.2" y2="1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="1.6" x2="3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.02" layer="20"/>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="1.6" width="0.02" layer="20"/>
+<rectangle x1="-3" y1="-1.5" x2="0" y2="1.5" layer="51"/>
+<rectangle x1="-6.4" y1="-2.6" x2="-6.1" y2="2.6" layer="52"/>
+<rectangle x1="6.1" y1="-2.6" x2="6.4" y2="2.6" layer="52"/>
+<rectangle x1="-3.7" y1="-2" x2="3.7" y2="2" layer="41"/>
+<rectangle x1="-6.5" y1="-3" x2="6.5" y2="3" layer="42"/>
+<text x="0" y="2.43" size="2" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.413" size="0.4" layer="28" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.729" size="1" layer="26" ratio="15" rot="MR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.53" size="0.8" layer="20" align="center">CUT OUT</text>
+<smd name="C" x="0" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="B" x="2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="A" x="-2.2" y="-5.1" dx="2" dy="1.2" layer="16" roundness="70" rot="R270"/>
+<smd name="MTG1" x="-5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG2" x="5.4" y="2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<rectangle x1="-6.8" y1="-3.4" x2="6.8" y2="3.4" layer="40"/>
+<smd name="MTG3" x="-5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<smd name="MTG4" x="5.4" y="-2.8" dx="3" dy="1.4" layer="16" roundness="30"/>
+<wire x1="-6.5" y1="-1.7" x2="-6.5" y2="1.7" width="0.2" layer="22"/>
+<wire x1="6.5" y1="-1.7" x2="6.5" y2="1.7" width="0.2" layer="22"/>
 </package>
 </packages>
 <packages3d>
@@ -12979,7 +13017,7 @@ Slide aims away to the bottom of PCB.</description>
 <packageinstance name="SS-12-F45"/>
 </packageinstances>
 </package3d>
-<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/3" type="box" library_version="31" library_locally_modified="yes">
+<package3d name="SS-12-F45-PNL-SMT" urn="urn:adsk.eagle:package:36475164/4" type="box" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, Mounted through PCB&lt;br&gt;
 Slide aims away to the bottom of PCB.</description>
 <packageinstances>
@@ -13028,11 +13066,11 @@ Slide aims away to the bottom of PCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/11" prefix="SW" uservalue="yes" library_version="31" library_locally_modified="yes">
+<deviceset name="SLIDE-SPDT-MNT" urn="urn:adsk.eagle:component:33041288/12" locally_modified="yes" prefix="SW" uservalue="yes" library_version="32" library_locally_modified="yes">
 <description>Slide Switch, SPDT</description>
 <gates>
 <gate name="-SW" symbol="SPDT" x="0" y="2.54"/>
-<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16" addlevel="request"/>
+<gate name="-MTG" symbol="2MTG" x="-2.54" y="-10.16"/>
 </gates>
 <devices>
 <device name="SS-12-F45" package="SS-12-F45">
@@ -13066,7 +13104,7 @@ Slide aims away to the bottom of PCB.</description>
 <connect gate="-SW" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36475164/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13075,6 +13113,24 @@ Slide aims away to the bottom of PCB.</description>
 <attribute name="COST100" value="0.12" constant="no"/>
 <attribute name="MFR" value="Tayda" constant="no"/>
 <attribute name="MPN" value="A-659 / A-5111" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SS-12-F45-TH-PCB-2" package="SS-12-F45-PNL-SMT-2">
+<connects>
+<connect gate="-MTG" pin="MT1" pad="MTG1 MTG3"/>
+<connect gate="-MTG" pin="MT2" pad="MTG2 MTG4"/>
+<connect gate="-SW" pin="A" pad="A"/>
+<connect gate="-SW" pin="B" pad="B"/>
+<connect gate="-SW" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.15" constant="no"/>
+<attribute name="COST10" value="0.12" constant="no"/>
+<attribute name="COST100" value="0.12" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-659/A-5111/A-5104" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -13140,7 +13196,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="EG2VCOMOD" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="EG2VCFMOD" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
 <part name="PWR_IN" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="03P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368284/5" value="JST SM 3P"/>
-<part name="SRC" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB" package3d_urn="urn:adsk.eagle:package:36475164/3"/>
+<part name="SRC" library="switch-thd" library_urn="urn:adsk.eagle:library:26242324" deviceset="SLIDE-SPDT-MNT" device="SS-12-F45-TH-PCB-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -13334,9 +13390,9 @@ Slide aims away to the bottom of PCB.</description>
 <attribute name="VALUE" x="8.89" y="32.004" size="1.016" layer="96" align="center"/>
 <attribute name="NAME" x="8.89" y="44.45" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="SRC" gate="-SW" x="43.18" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.116" y="121.92" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="37.592" y="122.174" size="0.8128" layer="96" rot="R90" align="center"/>
+<instance part="SRC" gate="-SW" x="43.18" y="121.92" smashed="yes" rot="MR270">
+<attribute name="NAME" x="39.116" y="121.92" size="1.778" layer="95" ratio="15" rot="MR270" align="center"/>
+<attribute name="VALUE" x="37.592" y="121.666" size="0.8128" layer="96" rot="MR270" align="center"/>
 </instance>
 <instance part="SRC" gate="-MTG" x="218.44" y="45.72" smashed="yes">
 <attribute name="VALUE" x="220.98" y="43.942" size="0.8128" layer="96" font="vector" align="bottom-center"/>
@@ -13443,9 +13499,9 @@ Slide aims away to the bottom of PCB.</description>
 <wire x1="30.48" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="132.08" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="129.54" x2="50.8" y2="127" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="127" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GATE_IN" gate="G$1" pin="1"/>
-<pinref part="SRC" gate="-SW" pin="B"/>
+<pinref part="SRC" gate="-SW" pin="A"/>
+<wire x1="50.8" y1="127" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TRIG" class="0">
@@ -13456,9 +13512,9 @@ Slide aims away to the bottom of PCB.</description>
 <wire x1="33.02" y1="111.76" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="111.76" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="114.3" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="116.84" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="TRIG_IN" gate="G$1" pin="1"/>
-<pinref part="SRC" gate="-SW" pin="A"/>
+<pinref part="SRC" gate="-SW" pin="B"/>
+<wire x1="48.26" y1="119.38" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$137" class="0">

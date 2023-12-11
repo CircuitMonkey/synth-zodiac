@@ -1026,7 +1026,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="-1.651" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/3" library_version="48">
+<package name="0603-CAP" urn="urn:adsk.eagle:footprint:4193020/4" library_version="49">
 <description>0603 Capacitor</description>
 <wire x1="-1.2746" y1="0.5484" x2="-0.4" y2="0.5484" width="0.1" layer="21"/>
 <wire x1="0.4" y1="0.5484" x2="1.2746" y2="0.5484" width="0.1" layer="21"/>
@@ -1040,8 +1040,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0" layer="51"/>
 <smd name="1" x="-0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
 <smd name="2" x="0.751840625" y="0" dx="0.7112" dy="0.762" layer="1" roundness="20"/>
-<text x="1.4" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="27" align="center">&gt;VALUE</text>
+<text x="1.5" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.2" layer="27" align="center">&gt;VALUE</text>
 <polygon width="0.01" layer="51">
 <vertex x="-0.76" y="-0.38"/>
 <vertex x="-0.51" y="-0.38"/>
@@ -1342,7 +1342,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="CAP_CER_THD_2.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/4" type="model" library_version="48">
+<package3d name="0603-CAP" urn="urn:adsk.eagle:package:4193021/5" type="model" library_version="49">
 <description>0603 Capacitor</description>
 <packageinstances>
 <packageinstance name="0603-CAP"/>
@@ -1436,7 +1436,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/15" prefix="C" uservalue="yes" library_version="48">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/16" prefix="C" uservalue="yes" library_version="49">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -1544,7 +1544,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193021/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3719,7 +3719,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="2P" urn="urn:adsk.eagle:component:4193227/7" prefix="X" uservalue="yes" library_version="7">
+<deviceset name="2P" urn="urn:adsk.eagle:component:4193227/8" prefix="X" uservalue="yes" library_version="8">
 <description>Crystal</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -3815,6 +3815,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="COST100" value="0.54" constant="no"/>
 <attribute name="MPN" value="ABM8G-12.2-18D2Y" constant="no"/>
 <attribute name="VALUE" value="12.288MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="32X25-12MHZ" package="32X25">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4193218/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="COST01" value="0.45" constant="no"/>
+<attribute name="COST10" value="0.35" constant="no"/>
+<attribute name="COST100" value="0.30" constant="no"/>
+<attribute name="MFR" value="ABRICON" constant="no"/>
+<attribute name="MPN" value="ABM8G-12-18D2Y" constant="no"/>
+<attribute name="VALUE" value="12MHZ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3945,7 +3964,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="-7" y="0" size="1.27" layer="25" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.5" size="0.7" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/2" library_version="23">
+<package name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:footprint:41392462/3" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <smd name="1" x="4.2" y="-2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
 <smd name="3" x="4.2" y="2.25" dx="1.7" dy="1.7" layer="16" roundness="60" rot="R90"/>
@@ -3969,7 +3988,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <text x="0" y="3.7" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-2.811" size="0.3" layer="27" font="vector" align="center">&gt;VALUE</text>
 <text x="4.083" y="0.047" size="0.7" layer="26" font="vector" ratio="15" rot="SMR90" align="center">&gt;NAME</text>
-<hole x="0" y="0" drill="3.3"/>
+<hole x="0" y="0" drill="3.7"/>
 <polygon width="0.127" layer="40">
 <vertex x="-3.1" y="3.3"/>
 <vertex x="3.1" y="3.3"/>
@@ -4004,7 +4023,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <packageinstance name="TS-1212-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/3" type="model" library_version="23">
+<package3d name="B3FS-BACKMOUNT" urn="urn:adsk.eagle:package:41392463/4" type="model" library_version="24">
 <description>B3FS 6x6 Tact Switch blind mounted through PCB</description>
 <packageinstances>
 <packageinstance name="B3FS-BACKMOUNT"/>
@@ -4030,7 +4049,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/4" prefix="SW" uservalue="yes" library_version="23">
+<deviceset name="PUSHBTN-MOM" urn="urn:adsk.eagle:component:41392464/5" prefix="SW" uservalue="yes" library_version="24">
 <description>Pushbutton Switch</description>
 <gates>
 <gate name="G$1" symbol="PUSH_SPST" x="0" y="0"/>
@@ -4112,7 +4131,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41392463/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41392463/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4121,7 +4140,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="COST100" value="0.09" constant="no"/>
 <attribute name="MFR" value="CK" constant="no"/>
 <attribute name="MPN" value="B3FS" constant="no"/>
-<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-3959(1.4mm), A-3962" constant="no"/>
+<attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" constant="no"/>
 <attribute name="VALUE" value="SPST, TACT, MOM" constant="no"/>
 </technology>
 </technologies>
@@ -14128,7 +14147,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <wire x1="-3" y1="-4" x2="-5" y2="-5" width="1.4" layer="30" curve="30"/>
 <wire x1="3" y1="-4" x2="5" y2="-5" width="1.4" layer="30" curve="-30"/>
 </package>
-<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/1" locally_modified="yes" library_version="8" library_locally_modified="yes">
+<package name="LEO-GLYPH" urn="urn:adsk.eagle:footprint:36376777/2" library_version="9">
 <description>Leo Glyph</description>
 <wire x1="-8.1" y1="8" x2="7.9" y2="8" width="0.127" layer="51"/>
 <wire x1="7.9" y1="8" x2="7.9" y2="-8" width="0.127" layer="51"/>
@@ -14287,7 +14306,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <packageinstance name="GEMINI-GLYPH"/>
 </packageinstances>
 </package3d>
-<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/1" type="empty" library_version="8" library_locally_modified="yes">
+<package3d name="LEO-GLYPH" urn="urn:adsk.eagle:package:36376803/2" type="empty" library_version="9">
 <description>Leo Glyph</description>
 <packageinstances>
 <packageinstance name="LEO-GLYPH"/>
@@ -14461,7 +14480,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/7" prefix="GLYPH" uservalue="yes" library_version="8" library_locally_modified="yes">
+<deviceset name="GLYPH" urn="urn:adsk.eagle:component:36376823/8" prefix="GLYPH" uservalue="yes" library_version="9">
 <description>Glyph</description>
 <gates>
 <gate name="G$1" symbol="GLYPH" x="0" y="0"/>
@@ -14529,7 +14548,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 </device>
 <device name="-LEO" package="LEO-GLYPH">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36376803/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14585,7 +14604,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF/16V"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/16V"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="470K"/>
 <part name="Q1" library="transistor-bjt" library_urn="urn:adsk.eagle:library:9359240" deviceset="NPN" device="-BC846" package3d_urn="urn:adsk.eagle:package:9359281/2" value="NPN"/>
 <part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100"/>
@@ -14594,8 +14613,8 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="D1" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
 <part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.0022uF"/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="10uF/16V"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.0022uF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/16V"/>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="470K"/>
 <part name="Q2" library="transistor-bjt" library_urn="urn:adsk.eagle:library:9359240" deviceset="NPN" device="-BC846" package3d_urn="urn:adsk.eagle:package:9359281/2" value="NPN"/>
 <part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100"/>
@@ -14604,44 +14623,44 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="D2" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
 <part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="R8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.0022uF"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.0022uF"/>
 <part name="R9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="2.2K"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.0033uF"/>
-<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.01uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.0033uF"/>
+<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.01uF"/>
 <part name="R10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="33K"/>
 <part name="R11" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="470K"/>
-<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="ENV" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="TP" device="SMD-040-RND" package3d_urn="urn:adsk.eagle:package:7289200/4"/>
-<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.47uF"/>
+<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.47uF"/>
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="D3" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
 <part name="U1" library="op-amp" library_urn="urn:adsk.eagle:library:7076615" deviceset="SINGLE" device="-TL071" package3d_urn="urn:adsk.eagle:package:7189798/2" value="TL071"/>
 <part name="SUPPLY12" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
-<part name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C9" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY15" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="R12" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100"/>
 <part name="SUPPLY17" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="X2" library="xtal" library_urn="urn:adsk.eagle:library:4193208" deviceset="RESONATOR" device="-CSTE16" package3d_urn="urn:adsk.eagle:package:36475170/1" value="16MHz"/>
 <part name="X1" library="xtal" library_urn="urn:adsk.eagle:library:4193208" deviceset="2P" device="CTS_445" package3d_urn="urn:adsk.eagle:package:4193220/2" value="16MHz"/>
-<part name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF"/>
-<part name="C11" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="18pF"/>
+<part name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF"/>
+<part name="C11" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF"/>
 <part name="SUPPLY20" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="33K"/>
 <part name="SUPPLY23" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
-<part name="C12" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C12" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R14" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100"/>
 <part name="SUPPLY29" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="VR" library="regulators" library_urn="urn:adsk.eagle:library:7189770" deviceset="LDO-3P-" device="-5V-SOT23" package3d_urn="urn:adsk.eagle:package:7189794/5" value="5V"/>
-<part name="C13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
-<part name="C14" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1uF"/>
+<part name="C13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
+<part name="C14" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
 <part name="SUPPLY34" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY35" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -14655,7 +14674,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="SUPPLY28" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="PD3" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>
 <part name="U3" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" deviceset="ATMEGA328" device="AU" package3d_urn="urn:adsk.eagle:package:4151456/3" value="ATmega328P-AU"/>
-<part name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C15" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY24" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="SUPPLY31" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -14676,12 +14695,12 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="AREF" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>
 <part name="PWR" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="03P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368284/5" value="JST SM 3P"/>
 <part name="COW2VCA" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="02P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41368283/6" value="JST, SH, 2P"/>
-<part name="COW" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/3" value="SPST, TACT, MOM"/>
+<part name="COW" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" deviceset="PUSHBTN-MOM" device="B3FS-BLIND" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM"/>
 <part name="X3" library="xtal" library_urn="urn:adsk.eagle:library:4193208" deviceset="2P" device="3.2X2.5" package3d_urn="urn:adsk.eagle:package:4193218/2" value="16MHz"/>
-<part name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY16" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
 <part name="SUPPLY19" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY39" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="GLYPH1" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="GLYPH" device="-TAURUS" package3d_urn="urn:adsk.eagle:package:41522816/2"/>
 <part name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="06P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SM, VT"/>

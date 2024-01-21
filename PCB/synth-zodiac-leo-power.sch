@@ -14689,9 +14689,9 @@ Slide aims away to the bottom of PCB.</description>
 <part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.01uF"/>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="100pF"/>
-<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="120K"/>
+<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="143K"/>
 <part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1M"/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/16V"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/25V"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -14702,11 +14702,11 @@ Slide aims away to the bottom of PCB.</description>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="0.5ohm"/>
 <part name="D2" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
 <part name="D3" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="SCHOTTKY" device="B140" package3d_urn="urn:adsk.eagle:package:7189483/2" value="B140"/>
-<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF"/>
+<part name="C5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="10uF/25V"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="2.2uF"/>
+<part name="C6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="2.2uF/16V"/>
 <part name="D4" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
-<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
+<part name="C7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF/10V"/>
 <part name="GHRG" library="co-microchip" library_urn="urn:adsk.eagle:library:9738997" deviceset="MCP73833" device="-DFN" package3d_urn="urn:adsk.eagle:package:9739049/3" value="MCP73833"/>
 <part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
 <part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
@@ -14714,7 +14714,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="DONE" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3" value="GRN"/>
 <part name="POK" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3" value="BLU"/>
 <part name="R8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
-<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF"/>
+<part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF/10V"/>
 <part name="RPRG" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
 <part name="RTH" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="THRM_G" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>

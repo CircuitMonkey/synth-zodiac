@@ -13153,7 +13153,7 @@ Slide aims away to the bottom of PCB.</description>
 <attribute name="REV" value="A"/>
 </part>
 <part name="U1" library="op-amp" library_urn="urn:adsk.eagle:library:7076615" deviceset="QUAD" device="TL074A-SOIC" package3d_urn="urn:adsk.eagle:package:7076665/2" value="TL074A"/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1.0uF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="1.0uF/16V"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1.00M"/>
 <part name="D1" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
 <part name="SUPPLY152" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -13163,12 +13163,12 @@ Slide aims away to the bottom of PCB.</description>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1.00M"/>
 <part name="SUPPLY157" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="D2" library="diodes" library_urn="urn:adsk.eagle:library:7189447" deviceset="DIODE-" device="1N4148" package3d_urn="urn:adsk.eagle:package:7189471/3" value="1N4148"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="2.2uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="2.2uF/16V"/>
 <part name="SUPPLY158" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="100K"/>
 <part name="SUPPLY159" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF/16V"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF/16V"/>
 <part name="SUPPLY161" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY153" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY162" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>

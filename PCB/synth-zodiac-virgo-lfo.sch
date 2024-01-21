@@ -13873,7 +13873,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="274K"/>
 <part name="SUPPLY72" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+9V" device=""/>
 <part name="SUPPLY73" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="-9V" device=""/>
-<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="3.32"/>
+<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="3.32K"/>
 <part name="SUPPLY74" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="Q9" library="transistor-bjt" library_urn="urn:adsk.eagle:library:9359240" deviceset="PNP" device="-BC856" package3d_urn="urn:adsk.eagle:package:9359281/2" value="PNP"/>
 <part name="SUPPLY75" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>

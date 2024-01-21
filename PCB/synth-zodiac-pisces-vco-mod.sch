@@ -13289,9 +13289,11 @@ Width</text>
 </instance>
 <instance part="C1" gate="G$1" x="43.18" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="40.64" y="53.34" size="1.6764" layer="95" font="vector" ratio="15" rot="MR0"/>
+<attribute name="VALUE" x="40.64" y="52.324" size="0.6096" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="C2" gate="G$1" x="43.18" y="43.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="40.64" y="43.18" size="1.6764" layer="95" font="vector" ratio="15" rot="MR0"/>
+<attribute name="VALUE" x="40.64" y="42.164" size="0.6096" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="SUPPLY95" gate="GND" x="40.64" y="48.26" smashed="yes">
 <attribute name="VALUE" x="40.64" y="45.593" size="0.6096" layer="96" font="vector" align="center"/>

@@ -2857,7 +2857,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="20.8" y="31.5" size="0.8128" layer="26" font="vector" ratio="15" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="21.6" y="30.3" size="0.2" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/5" value="33K" x="40.5" y="17.7" smashed="yes" rot="MR0">
+<element name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K" x="40.5" y="17.7" smashed="yes" rot="MR0">
 <attribute name="COST01" value="0.10" x="40.5" y="17.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST10" value="0.05" x="40.5" y="17.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="COST100" value="0.02" x="40.5" y="17.7" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2994,8 +2994,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.053" y="49.383" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="38.2" y="58" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
+<attribute name="NAME" x="38.053" y="49.383" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="35.189" y="54" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
 <element name="X3" library="xtal" library_urn="urn:adsk.eagle:library:4193208" package="32X25" package3d_urn="urn:adsk.eagle:package:4193218/2" value="16MHz" x="18.8" y="27.8" smashed="yes" rot="MR90">
@@ -3019,7 +3019,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="40.5" y="16.3" size="0.2" layer="28" rot="MR180" align="center"/>
 </element>
 <element name="GLYPH1" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" package="TAURUS-GLYPH" package3d_urn="urn:adsk.eagle:package:41522816/2" value="" x="48.9" y="39.9" smashed="yes" rot="R324"/>
-<element name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" package="BM06B-SRSS-TB" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SM, VT" x="37.8" y="12.1" smashed="yes" rot="MR180">
+<element name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" package="BM06B-SRSS-TB" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SH, VT" x="37.8" y="12.1" smashed="yes" rot="MR180">
 <attribute name="COST01" value="0.60" x="37.8" y="12.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST10" value="0.52" x="37.8" y="12.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="COST100" value="0.49" x="37.8" y="12.1" size="1.778" layer="28" rot="MR180" display="off"/>

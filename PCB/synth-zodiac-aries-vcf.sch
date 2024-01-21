@@ -14356,6 +14356,7 @@ to 0-3.3V for LED PCB.</text>
 </instance>
 <instance part="CAL" gate="G$1" x="30.48" y="20.32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.416" y="20.447" size="1.778" layer="95" ratio="15" rot="MR270" align="center"/>
+<attribute name="VALUE" x="28.067" y="20.447" size="1.016" layer="96" rot="MR270" align="center"/>
 </instance>
 <instance part="R6" gate="G$1" x="30.48" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.2608" y="11.43" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="bottom-center"/>
@@ -14393,10 +14394,12 @@ to 0-3.3V for LED PCB.</text>
 <attribute name="VALUE" x="165.608" y="127" size="0.8128" layer="96" rot="MR180" align="center"/>
 </instance>
 <instance part="C10" gate="G$1" x="165.1" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="163.068" y="43.688" size="1.6764" layer="95" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="162.56" y="45.72" size="1.6764" layer="95" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="162.56" y="46.736" size="0.6096" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="C11" gate="G$1" x="165.1" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="163.068" y="33.528" size="1.6764" layer="95" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="162.56" y="35.56" size="1.6764" layer="95" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="162.56" y="36.576" size="0.6096" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="SUPPLY45" gate="GND" x="162.56" y="40.64" smashed="yes">
 <attribute name="VALUE" x="162.56" y="37.973" size="0.6096" layer="96" font="vector" align="center"/>

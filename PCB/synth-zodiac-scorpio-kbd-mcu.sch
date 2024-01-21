@@ -15116,7 +15116,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="18pF"/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="R16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10.0M"/>
+<part name="R16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="C18" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY16" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>

@@ -2970,8 +2970,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="MPN" value="B3FS" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="15.5" y="43.5" size="1.778" layer="27" rot="R216" display="off"/>
-<attribute name="NAME" x="12.037953125" y="41.224409375" size="0.7" layer="26" font="vector" ratio="15" rot="SMR144" align="center"/>
 <attribute name="NAME" x="11.793365625" y="43.274803125" size="2" layer="25" font="vector" ratio="15" rot="SR270" align="center"/>
+<attribute name="NAME" x="12.037953125" y="41.224409375" size="0.7" layer="26" font="vector" ratio="15" rot="SMR144" align="center"/>
 <attribute name="VALUE" x="13.847734375" y="45.77414375" size="0.3" layer="27" font="vector" rot="R216" align="center"/>
 </element>
 <element name="C#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="19.4" y="35.6" smashed="yes" rot="R198">
@@ -2981,8 +2981,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="MPN" value="B3FS" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="19.4" y="35.6" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="NAME" x="15.568640625" y="34.30641875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="NAME" x="15.618909375" y="34.9433625" size="2" layer="25" font="vector" ratio="15" rot="SR280" align="center"/>
+<attribute name="NAME" x="15.568640625" y="34.30641875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="VALUE" x="18.531353125" y="38.27341875" size="0.3" layer="27" font="vector" rot="R198" align="center"/>
 </element>
 <element name="D" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="16.4" y="26.5" smashed="yes" rot="R18">
@@ -2992,8 +2992,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN" value="B3FS" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="16.4" y="26.5" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="NAME" x="20.2686375" y="27.806415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="NAME" x="13.41890625" y="25.443365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
+<attribute name="NAME" x="20.2686375" y="27.806415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="VALUE" x="17.26864375" y="23.826578125" size="0.3" layer="27" font="vector" rot="R18" align="center"/>
 </element>
 <element name="D#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="23.8" y="20.9" smashed="yes" rot="R18">
@@ -3003,8 +3003,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN" value="B3FS" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="23.8" y="20.9" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="NAME" x="20.1686375" y="19.706415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="NAME" x="20.51890625" y="19.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR288" align="center"/>
+<attribute name="NAME" x="20.1686375" y="19.706415625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR72" align="center"/>
 <attribute name="VALUE" x="24.66864375" y="18.226578125" size="0.3" layer="27" font="vector" rot="R18" align="center"/>
 </element>
 <element name="E" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="23.5" y="13.4" smashed="yes" rot="R270">
@@ -3014,8 +3014,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="23.5" y="13.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.553" y="9.283" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="21.3" y="10.6" size="2" layer="25" font="vector" ratio="15" rot="SR324" align="center"/>
+<attribute name="NAME" x="23.553" y="9.283" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="20.689" y="13.4" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
 <element name="F" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="31.6" y="10.7" smashed="yes" rot="R90">
@@ -3025,8 +3025,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3FS" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="31.6" y="10.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.553" y="14.783" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="31.1" y="7.4" size="2" layer="25" font="vector" ratio="15" rot="SR355" align="center"/>
+<attribute name="NAME" x="31.553" y="14.783" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="34.411" y="10.7" size="0.3" layer="27" font="vector" rot="R90" align="center"/>
 </element>
 <element name="F#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="39.8" y="15" smashed="yes" rot="R270">
@@ -3036,8 +3036,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3FS" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="39.8" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.753" y="11.083" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="39.8" y="11.5" size="2" layer="25" font="vector" ratio="15" rot="SR0" align="center"/>
+<attribute name="NAME" x="39.753" y="11.083" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="36.989" y="15" size="0.3" layer="27" font="vector" rot="R270" align="center"/>
 </element>
 <element name="G" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="47.4" y="11" smashed="yes">
@@ -3047,8 +3047,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3FS" x="47.4" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="47.4" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.453" y="10.983" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="48.7" y="7.6" size="2" layer="25" font="vector" ratio="15" rot="SR15" align="center"/>
+<attribute name="NAME" x="51.453" y="10.983" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="47.4" y="8.189" size="0.3" layer="27" font="vector" align="center"/>
 </element>
 <element name="G#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="49.3" y="19.1" smashed="yes" rot="R180">
@@ -3058,8 +3058,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="B3FS" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="49.3" y="19.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="49.253" y="23.583" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="NAME" x="51.9" y="16.3" size="2" layer="25" font="vector" ratio="15" rot="SR50" align="center"/>
+<attribute name="NAME" x="49.253" y="23.583" size="0.7" layer="26" font="vector" ratio="15" rot="SMR0" align="center"/>
 <attribute name="VALUE" x="49.3" y="21.911" size="0.3" layer="27" font="vector" rot="R180" align="center"/>
 </element>
 <element name="A" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="57.7" y="21.9" smashed="yes" rot="R252">
@@ -3069,8 +3069,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="MPN" value="B3FS" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="57.7" y="21.9" size="1.778" layer="27" rot="R252" display="off"/>
-<attribute name="NAME" x="53.702309375" y="23.21701875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="NAME" x="60.78109375" y="20.943365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
+<attribute name="NAME" x="53.702309375" y="23.21701875" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="VALUE" x="55.026578125" y="22.76864375" size="0.3" layer="27" font="vector" rot="R252" align="center"/>
 </element>
 <element name="A#" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="56.3" y="30.3" smashed="yes" rot="R162">
@@ -3080,8 +3080,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN" value="B3FS" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="56.3" y="30.3" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="NAME" x="52.402309375" y="31.517015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="NAME" x="59.581090625" y="29.243365625" size="2" layer="25" font="vector" ratio="15" rot="SR72" align="center"/>
+<attribute name="NAME" x="52.402309375" y="31.517015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="VALUE" x="57.16864375" y="32.97341875" size="0.3" layer="27" font="vector" rot="R162" align="center"/>
 </element>
 <element name="B" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="62.7" y="36.7" smashed="yes" rot="R162">
@@ -3091,8 +3091,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN" value="B3FS" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="62.7" y="36.7" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="NAME" x="58.802309375" y="37.917015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="NAME" x="65.981090625" y="36.743365625" size="2" layer="25" font="vector" ratio="15" rot="SR92" align="center"/>
+<attribute name="NAME" x="58.802309375" y="37.917015625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR288" align="center"/>
 <attribute name="VALUE" x="63.56864375" y="39.37341875" size="0.3" layer="27" font="vector" rot="R162" align="center"/>
 </element>
 <element name="C2" library="switch-smd" library_urn="urn:adsk.eagle:library:5542824" package="B3FS-BACKMOUNT" package3d_urn="urn:adsk.eagle:package:41392463/4" value="SPST, TACT, MOM" x="57.7" y="46.1" smashed="yes" rot="R234">
@@ -3102,8 +3102,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="MFR" value="CK" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="MPN" value="B3FS" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="MPN2" value="Tayda A-3961(2.3mm), A-5134(3.14mm,RA)" x="57.7" y="46.1" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="NAME" x="55.23809375" y="42.66915625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR216" align="center"/>
 <attribute name="NAME" x="62.17519375" y="46.3066375" size="2" layer="25" font="vector" ratio="15" rot="SR108" align="center"/>
+<attribute name="NAME" x="55.23809375" y="42.66915625" size="0.7" layer="26" font="vector" ratio="15" rot="SMR216" align="center"/>
 <attribute name="VALUE" x="55.425853125" y="47.7522625" size="0.3" layer="27" font="vector" rot="R234" align="center"/>
 </element>
 <element name="U1" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" package="MLF32" package3d_urn="urn:adsk.eagle:package:4151450/6" value="ATmega328P-MU" x="36.7" y="35.5" smashed="yes" rot="MR270">
@@ -3134,7 +3134,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="46.8" y="40.2" size="0.8128" layer="26" font="vector" ratio="15" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="43.2" y="40.4" size="0.2" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10.0M" x="32.4" y="40.5" smashed="yes" rot="MR90">
+<element name="R16" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-RES" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K" x="32.4" y="40.5" smashed="yes" rot="MR90">
 <attribute name="COST01" value="0.10" x="32.4" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST10" value="0.05" x="32.4" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="COST100" value="0.02" x="32.4" y="40.5" size="1.778" layer="28" rot="MR90" display="off"/>

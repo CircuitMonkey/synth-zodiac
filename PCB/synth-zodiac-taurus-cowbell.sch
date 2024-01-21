@@ -14652,7 +14652,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="SUPPLY20" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="33K"/>
+<part name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="SUPPLY23" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 <part name="C12" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -14703,7 +14703,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="C17" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY39" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="GLYPH1" library="circuit-monkey-zodiac" library_urn="urn:adsk.eagle:library:36060312" deviceset="GLYPH" device="-TAURUS" package3d_urn="urn:adsk.eagle:package:41522816/2"/>
-<part name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="06P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SM, VT"/>
+<part name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="06P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SH, VT"/>
 <part name="SUPPLY40" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="+5V" device=""/>
 </parts>
@@ -14772,7 +14772,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <wire x1="197.866" y1="110.998" x2="198.882" y2="110.998" width="0.127" layer="97" curve="-180"/>
 <wire x1="198.882" y1="110.998" x2="199.39" y2="110.49" width="0.127" layer="97" curve="90"/>
 <wire x1="199.39" y1="110.49" x2="201.93" y2="110.49" width="0.127" layer="97"/>
-<text x="190.754" y="117.856" size="1.778" layer="97">ENV</text>
+<text x="190.754" y="117.856" size="1.778" layer="97">COW</text>
 <text x="121.92" y="180.34" size="16.9164" layer="97" ratio="15" align="top-center">Cowbell</text>
 <text x="5.08" y="172.72" size="8.89" layer="97" ratio="15" align="top-left">Zodiac Synth</text>
 <text x="243.84" y="177.8" size="11.176" layer="97" align="top-right">Taurus</text>

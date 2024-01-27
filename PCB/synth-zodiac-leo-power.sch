@@ -14715,7 +14715,7 @@ Slide aims away to the bottom of PCB.</description>
 <part name="POK" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3" value="BLU"/>
 <part name="R8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
 <part name="C8" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="1uF/10V"/>
-<part name="RPRG" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="1K"/>
+<part name="RPRG" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="4K"/>
 <part name="RTH" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="THRM_G" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>
 <part name="THRM" library="con-testpoints" library_urn="urn:adsk.eagle:library:7289188" deviceset="PAD" device="SMD-050X050" package3d_urn="urn:adsk.eagle:package:36472491/1"/>
@@ -14761,17 +14761,22 @@ Slide aims away to the bottom of PCB.</description>
 <sheet>
 <plain>
 <text x="180.34" y="71.12" size="2.54" layer="97">Battery Choice:
-AdaFruit #258  3.7V @ 1200mA</text>
+AdaFruit #1781  3.7V @ 2200mA</text>
 <text x="129.54" y="99.06" size="1.778" layer="97">R3 set for 9V</text>
 <text x="167.64" y="137.16" size="1.778" layer="97" align="center-left">-9VDC</text>
 <text x="167.64" y="116.84" size="1.778" layer="97" align="center-left">+9VDC</text>
 <text x="132.08" y="96.52" size="1.778" layer="97">Put a trim pot here.</text>
 <text x="121.92" y="45.72" size="1.778" layer="97">Recalculate
-Rprog value.</text>
+Rprog value.
+2K = 500mA</text>
 <text x="121.92" y="180.34" size="16.9164" layer="97" ratio="15" align="top-center">Power</text>
 <text x="5.08" y="172.72" size="8.89" layer="97" ratio="15" align="top-left">Zodiac Synth</text>
 <text x="243.84" y="177.8" size="11.176" layer="97" align="top-right">Leo</text>
 <text x="5.08" y="175.26" size="5.08" layer="97">SATAN'S CYCLE WORKS</text>
+<text x="5.08" y="119.38" size="1.778" layer="97">Change switch to have 
+Charge/Run routing.</text>
+<text x="33.02" y="96.52" size="1.778" layer="97">Change batt connector
+to JST PH size.</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>

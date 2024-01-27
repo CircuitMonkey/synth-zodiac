@@ -1,6 +1,9 @@
 /**
  * Zodiac Synth - Scorpio - Keyboard Firmware
  *
+ *  Contains portions of AdaFruit NeoPixel "StrandTest" example code.
+ *  Used under license terms.
+ *
  *  ATmega328P @16Mhz
  *     Use: "Arduino Nano" device in IDE
  *           New Board Only: Tools -> Burn Bootloader. (sets xtal and fuses)
@@ -15,7 +18,6 @@
 #define LED_PIN   5
 #define LED_COUNT 5
 
-
 #define BTN_INC 7
 #define BTN_DEC 6
 
@@ -27,7 +29,7 @@ void setup() {
 
   strip.begin();           // INITIALIZE WS2812B strip object
   strip.show();            // Turn OFF all pixels ASAP
-  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+  strip.setBrightness(110); // Set BRIGHTNESS to about 1/5 (max = 255)
   
   colorWipe(strip.Color(255,   0,   0), 1000); // Red
   colorWipe(strip.Color(  0, 255,   0), 1000); // Green
@@ -40,7 +42,7 @@ void loop() {
   // colorWipe(strip.Color(  0, 255,   0), 1000); // Green
   // colorWipe(strip.Color(  0,   0, 255), 1000); // Blue
 
-  rainbow(30);             // Flowing rainbow cycle along the whole strip
+  rainbow(25);             // Flowing rainbow cycle along the whole strip
 
 }
 

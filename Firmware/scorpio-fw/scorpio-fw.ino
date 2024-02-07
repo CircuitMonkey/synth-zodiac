@@ -87,7 +87,7 @@ void setup() {
 
   strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
   strip.show();            // Turn OFF all pixels ASAP
-  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+  strip.setBrightness(100); // Set BRIGHTNESS to about 1/5 (max = 255)
   
   colorWipe(strip.Color(255,   0,   0), 1000); // Red
   colorWipe(strip.Color(  0, 255,   0), 1000); // Green
@@ -131,10 +131,15 @@ void loop() {
       strip.setPixelColor(0,strip.ColorHSV(n * 5461)); // Hue range 0-65535
     }
   } else { // Nothing pressed or user released button.
+
+    // TODO: Decay light brightness.
+    
     digitalWrite(GATE, LOW); // Close the gate.
     lastKey = -1;
     strip.setPixelColor(0,strip.Color(0,   0,   0)); // OFF
   }
+  strip.show();            // Turn OFF all pixels ASAP
+  delay(10);
 }
 
 int8_t scanKeys() {
@@ -151,7 +156,7 @@ int8_t scanKeys() {
     }
   }
 
-  return -1;
+  return -1; // No key pressed.
 }
 
 // Fill strip pixels one after another with a color. Strip is NOT cleared
